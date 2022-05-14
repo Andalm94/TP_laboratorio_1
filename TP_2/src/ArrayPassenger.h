@@ -217,6 +217,13 @@ int modificarTipo(Passenger* list, int len, int id, char * mensaje, char * mensa
 */
 int mostrarTotalYPromedio(Passenger* list, int len);
 
+
+/** \brief Carga 5 pasajeros hardcodeados en el array de pasajeros. Aumenta +5 el id pasado por referencia
+* \param list Passenger*
+* \param len int
+* \param len *id recibe como puntero el id para que pueda ser modificado
+* \return int Return (-1) if Error [Invalid length or NULL pointer] - (0) if Ok*
+*/
 int cargaForzadaDePasajeros(Passenger* list, int len, int *id);
 
 #endif /* ARRAYPASSENGER_H_ */
