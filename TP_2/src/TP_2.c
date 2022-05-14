@@ -48,6 +48,8 @@ int main(void) {
 							getString("Por favor, ingrese el codigo del vuelo: \n", "Ha habido un error, intente nuevamente\n", flyCodeIngresado, 50, 3) == 0){
 
 						addPassenger(pasajeros, MAX_PASAJEROS, id, nombreIngresado, apellidoIngresado, precioIngresado, typePassengerIngresado, flyCodeIngresado);
+						auxiliarBusquedaID = findPassengerById(pasajeros, MAX_PASAJEROS, id);
+						printOnlyOnePassenger(pasajeros[auxiliarBusquedaID]);
 						id++;
 					}
 					break;
@@ -173,10 +175,16 @@ int main(void) {
 					}
 					break;
 				case 5:
+					if(cargaForzadaDePasajeros(pasajeros, MAX_PASAJEROS, &id)==0){
+						printPassenger(pasajeros, MAX_PASAJEROS);
+						printf("La carga forzada de pasajeros se ha realizado exitosamente.\n");
+					}
+					break;
+				case 6:
 					break;
 				}
 			}
-		}while(opcionMenu != 5);
+		}while(opcionMenu != 6);
 	}
 
 	return EXIT_SUCCESS;

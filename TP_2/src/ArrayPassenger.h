@@ -217,4 +217,6 @@ int modificarTipo(Passenger* list, int len, int id, char * mensaje, char * mensa
 */
 int mostrarTotalYPromedio(Passenger* list, int len);
 
+int cargaForzadaDePasajeros(Passenger* list, int len, int *id);
+
 #endif /* ARRAYPASSENGER_H_ */

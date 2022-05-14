@@ -42,7 +42,7 @@ int addPassenger(Passenger* list, int len, int id, char name[], char lastName[],
 		strcpy(list[indexLibre].flycode, flycode);
 		list[indexLibre].statusFlight = ACTIVO;
 		list[indexLibre].isEmpty = FULL;
-		retorno = printOnlyOnePassenger(list[indexLibre]); //Si se carga exitosamente, en retorno se carga 0.
+		retorno = 0;
 	}
 
 
@@ -451,3 +451,20 @@ int mostrarTotalYPromedio(Passenger* list, int len){
 	return retorno;
 }
 
+int cargaForzadaDePasajeros(Passenger* list, int len, int *id){
+	int retorno =-1;
+
+	if(list!=NULL && len>0){
+		if(addPassenger(list, len, *id, "Andres", "Almeida", 250000, 1, "EM1190" )==0 &&
+				addPassenger(list, len, *id+1, "Karina", "Barreiro", 250000, 1, "EM1190" )==0 &&
+				addPassenger(list, len, *id+2, "Pipe", "Almeida", 250000, 1, "EM1190" )==0 &&
+				addPassenger(list, len, *id+3, "Gladys", "Salucho", 300000, 1, "CA1340" )==0 &&
+				addPassenger(list, len, *id+4, "Ana", "Salucho", 300000, 1, "CA1340" )==0){
+			*id += 5;
+			retorno = 0;
+		}
+	}
+
+
+	return retorno;
+}
