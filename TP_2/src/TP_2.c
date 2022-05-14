@@ -36,7 +36,7 @@ int main(void) {
 			printf("3) BAJA\n");
 			printf("4) INFORMAR\n");
 			printf("5) CARGA FORZADA DE PASAJEROS\n");
-			printf("5) SALIR\n");
+			printf("6) SALIR\n");
 
 			if(getInt(&opcionMenu, "Por favor, ingrese una opcion\n", "La opcion Ingresada no es valida, intente nuevamente\n", 1, 5, 3)==0){
 				switch(opcionMenu){
