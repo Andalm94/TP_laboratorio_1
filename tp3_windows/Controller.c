@@ -13,13 +13,16 @@
  *
  * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_loadFromText(char* path , LinkedList* pArrayListPassenger){
 	int retorno = -1;
 	FILE* file;
-
+	//Descripcionn:
+	//1- Valido los parametros recibidos
+	//2- Abro el archivo y llamo a la funcion 'parser_PassengerFromText' que carga los pasajeros en la LinkedList.
+	//3- Cierro el archivo. En caso de exito retorno 0.
 	if(pArrayListPassenger != NULL){
 		file = fopen(path, "r");
 		if(file != NULL && parser_PassengerFromText(file, pArrayListPassenger) == 0){
@@ -30,18 +33,21 @@ int controller_loadFromText(char* path , LinkedList* pArrayListPassenger){
     return retorno;
 }
 
-/** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo binario).
+/** \brief Carga los datos de los pasajeros desde el archivo data.bin (modo binario).
  *
  * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger){
     int retorno = -1;
     int len;
 	FILE* file;
-
+	//Descripcionn:
+	//1- Valido los parametros recibidos
+	//2- Abro el archivo y llamo a la funcion 'parser_PassengerFromBinary' que carga los pasajeros en la LinkedList.
+	//3- Cierro el archivo. En caso de exito retorno 0.
 	if(pArrayListPassenger != NULL){
 		file = fopen(path, "rb");
 		if(file != NULL && parser_PassengerFromBinary(file, pArrayListPassenger)==0 ){
@@ -64,14 +70,13 @@ int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger){
 
 /** \brief Alta de pasajero
  *
- * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_addPassenger(LinkedList* pArrayListPassenger){
 	int retorno = -1;
-	Passenger* auxPasajero;
+	Passenger* pPasajero;
 	int nextID;
 	char id[32];
 	char nombre[32];
@@ -81,7 +86,13 @@ int controller_addPassenger(LinkedList* pArrayListPassenger){
 	char precio[32];
 	char estadoDeVuelo[32];
 
-
+	//Descripcionn:
+	//1- Declaro las variables locales y un puntero de tipo Passenger. Luego valido los parametros recibidos
+	//2- Solicito al usuario que cargue los datos para crear el nuevo pasajero.
+	//3- Genero una ID nueva pasa el usuario mediante la funcion 'controller_generadorID'
+	//4- La funcion 'Passenger_newParametros' recibe como parametro los datos solicitados y retorna un puntero a Passenger
+	//5- Se carga el nuevo pasajero en linkedList.
+	//6- En caso de exito retorna 0. En caso contrario -1.
 	if(pArrayListPassenger != NULL){
 		if(getString ("Nombre: \n", "ERROR. Intente nuevamente.", nombre, 32, 3) == 0 &&
 				getString ("Apellido: \n", "ERROR. Intente nuevamente.", apellido, 32, 3) == 0 &&
@@ -92,8 +103,8 @@ int controller_addPassenger(LinkedList* pArrayListPassenger){
 
 			nextID = controller_generadorID(pArrayListPassenger);
 			sprintf(id,"%i", nextID);
-			auxPasajero = Passenger_newParametros(id, nombre, apellido, codigoDeVuelo, tipoDePasajero, precio, estadoDeVuelo);
-			ll_add(pArrayListPassenger, auxPasajero);
+			pPasajero = Passenger_newParametros(id, nombre, apellido, codigoDeVuelo, tipoDePasajero, precio, estadoDeVuelo);
+			ll_add(pArrayListPassenger, pPasajero);
 			retorno = 0;
 		}
 
@@ -104,9 +115,8 @@ int controller_addPassenger(LinkedList* pArrayListPassenger){
 
 /** \brief Modificar datos de pasajero
  *
- * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_editPassenger(LinkedList* pArrayListPassenger){
@@ -115,16 +125,24 @@ int controller_editPassenger(LinkedList* pArrayListPassenger){
 	int indexPasajero = -1;
 	int opcionIngresada;
 	char nuevoDato[32];
-	Passenger* auxPasajero = NULL;
+	Passenger* pPasajero = NULL;
 
+
+	//Descripcionn:
+	//1- Declaro las variables locales y un puntero de tipo Passenger.
+	//2- Muestro la lista de pasajeros y solicito al usuario un ID. Busco ese usuario con la funcion 'controller_BuscarPasajeroPorID'
+	//Cargo el puntero a ese pasajero en la variable 'pPasajero'
+	//3- Si el pasajero existe, lo muestro y se despliega un menu de modificaciones, donde el usuario elegira que campo modificar
+	//4- Se solicita al usuario el dato nuevo y se guarda en la estructura. Luego se muestra el pasajero nuevamente.
+	//5- Si los parametros son validos, retorna 0. Caso contrario -1.
 	 if(controller_ListPassenger(pArrayListPassenger)==0 &&
 			 getInt(&idPasajero, "Pasajero ID: \n", "ERROR. Intente nuevamente\n", 1, 9999, 3) == 0){
 
 		 retorno = 0;
 		 indexPasajero = controller_BuscarPasajeroPorID(pArrayListPassenger, idPasajero);
 		 if(indexPasajero != -1){
-				auxPasajero=(Passenger*)ll_get(pArrayListPassenger, indexPasajero);
-				mostrarPasajero(auxPasajero);
+				pPasajero=(Passenger*)ll_get(pArrayListPassenger, indexPasajero);
+				mostrarPasajero(pPasajero);
 
 				do{
 					mostrarMenuModificaciones();
@@ -133,28 +151,28 @@ int controller_editPassenger(LinkedList* pArrayListPassenger){
 						switch(opcionIngresada){
 							case 1: //---------------------------------------------------------> NOMBRE
 								getString ("Nuevo nombre:\n", "ERROR\n", nuevoDato, 32, 3);
-								Passenger_setNombre(auxPasajero, nuevoDato);
-								mostrarPasajero(auxPasajero);
+								Passenger_setNombre(pPasajero, nuevoDato);
+								mostrarPasajero(pPasajero);
 								break;
 							case 2: //---------------------------------------------------------> APELLIDO
 								getString ("Nuevo apellido:\n", "ERROR\n", nuevoDato, 32, 3);
-								Passenger_setApellido(auxPasajero, nuevoDato);
-								mostrarPasajero(auxPasajero);
+								Passenger_setApellido(pPasajero, nuevoDato);
+								mostrarPasajero(pPasajero);
 								break;
 							case 3: //---------------------------------------------------------> CODIGO DE VUELO
 								getString ("Nuevo codigo de vuelo:\n", "ERROR\n", nuevoDato, 32, 3);
-								Passenger_setCodigoVuelo(auxPasajero, nuevoDato);
-								mostrarPasajero(auxPasajero);
+								Passenger_setCodigoVuelo(pPasajero, nuevoDato);
+								mostrarPasajero(pPasajero);
 								break;
 							case 4: //---------------------------------------------------------> TIPO DE PASAJERO
 								getString ("Nuevo tipo de pasajero:\n", "ERROR\n", nuevoDato, 32, 3);
-								Passenger_setTipoPasajero(auxPasajero, atoi(nuevoDato));
-								mostrarPasajero(auxPasajero);
+								Passenger_setTipoPasajero(pPasajero, atoi(nuevoDato));
+								mostrarPasajero(pPasajero);
 								break;
 							case 5: //---------------------------------------------------------> PRECIO
 								getString ("Nuevo precio:\n", "ERROR\n", nuevoDato, 32, 3);
-								Passenger_setPrecio(auxPasajero, atof(nuevoDato));
-								mostrarPasajero(auxPasajero);
+								Passenger_setPrecio(pPasajero, atof(nuevoDato));
+								mostrarPasajero(pPasajero);
 								break;
 							case 6: //---------------------------------------------------------> VOLVER AL MENU PRINCIPAL
 								break;
@@ -171,38 +189,37 @@ int controller_editPassenger(LinkedList* pArrayListPassenger){
 
 /** \brief Baja de pasajero
  *
- * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_removePassenger(LinkedList* pArrayListPassenger){
 	int retorno = -1;
 	int indexPasajero;
 	int idPasajero;
-	Passenger* auxPasajero;
+	Passenger* pPasajero;
 	char respuestaConfirmacion;
-
-	//Valido los parametros ingresados
+	//Descripcion:
+	//1-Valido los parametros ingresados. La funcion retornara 0 si son validos y -1 en caso contrario
 	if(pArrayListPassenger != NULL){
+		retorno=0;
 
-		//Listo los pasajeros
+		//2-Listo los pasajeros
 		//Solicito el ID del pasajero a eliminar
 		if(controller_ListPassenger(pArrayListPassenger) == 0 &&
 				getInt(&idPasajero, "Pasajero ID:\n", "ERROR. Intente nuevamente\n", 0, 9999, 3) == 0){
 
 
-			//Si existe el pasajero, se almacena en la variable 'auxPasajero' y se muestra.
+			//3-Si existe el pasajero, su puntero se almacena en la variable 'pPasajero' y se muestra.
 			indexPasajero = controller_BuscarPasajeroPorID(pArrayListPassenger, idPasajero);
 			if(indexPasajero != -1){
-				auxPasajero=(Passenger*)ll_get(pArrayListPassenger, indexPasajero);
-				mostrarPasajero(auxPasajero);
+				pPasajero=(Passenger*)ll_get(pArrayListPassenger, indexPasajero);
+				mostrarPasajero(pPasajero);
 
-				//Se solicita confirmacion para eliminar. En casi de que el usuario confirme, el usuario se elimina.
+				//4-Se solicita confirmacion para eliminar. En casi de que el usuario confirme, el usuario se elimina.
 				if (getCharSiNo ("Desea eliminar este pasajero\n", &respuestaConfirmacion, 3) == 0 && respuestaConfirmacion == 'S'){
 		    		ll_remove(pArrayListPassenger, indexPasajero);
-		    		Passenger_delete(auxPasajero);
-		    		retorno=0;
+		    		Passenger_delete(pPasajero);
 				}
 
 			}
@@ -221,43 +238,56 @@ int controller_removePassenger(LinkedList* pArrayListPassenger){
 //------------------------------LISTAR / BUSCAR / ORDENAR----------------------------------------
 /** \brief Listar pasajeros
  *
- * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_ListPassenger(LinkedList* pArrayListPassenger){
 	int retorno = -1;
 	int len;
-	Passenger* auxPasajero;
+	Passenger* pPasajero;
 
+	//Descripcion:
+	//1-Creo una variable 'len' que almacenara la cantidad de pasajeros cargados.
+	//Creo una variable 'pPasajero' que almacena un puntero a Passenger.
+	//2-Valido los parametros. Muestro un header y con un ciclo for recorro todos los pasajeros y los muestro usando la funcion 'mostrarPasajero'
 	if(pArrayListPassenger != NULL){
 		len = ll_len(pArrayListPassenger);
 		printf("\n---------------------------------------------------------------------------------------------------\n");
 		printf("ID        NOMBRE         APELLIDO       PRECIO       CODIGO DE VUELO     TIPO             ESTADO\n");
 		printf("---------------------------------------------------------------------------------------------------\n");
 		for(int i=0; i<len; i++){
-			auxPasajero = (Passenger*) ll_get(pArrayListPassenger, i);
-			mostrarPasajero(auxPasajero);
+			pPasajero = (Passenger*) ll_get(pArrayListPassenger, i);
+			mostrarPasajero(pPasajero);
 		}
 		retorno = 0;
 	}
     return retorno;
 }
 
-
+/** \brief Recibe un ID por parametro y busca el index del pasajero
+ *
+ * \param int id
+ * \param pArrayListPassenger LinkedList*
+ * \return int. Exito: index del pasajero // Error o parametros invalidos: -1
+ *
+ */
 int controller_BuscarPasajeroPorID(LinkedList* pArrayListPassenger, int id){
 	int retorno = -1;
 	int len;
-	Passenger* auxPasajero = NULL;
+	Passenger* pPasajero = NULL;
 
 	len=ll_len(pArrayListPassenger);
-
+	//Descripcion:
+	//1-Creo una variable 'len' que almacenara la cantidad de pasajeros cargados.
+	//Creo una variable 'pPasajero' que almacena un puntero a Passenger.
+	//2-Recibo por parametro un ID y busco el usuario que posea dicho ID. Busco su index y lo retorno.
+	//En caso de recibir parametros invalidos o no encontrar el usuario, retorna -1.
 	if(pArrayListPassenger != NULL){
 		for (int i=0; i<len; i++){
-			auxPasajero = (Passenger*)ll_get(pArrayListPassenger, i);
-			if(auxPasajero->id == id){
-				retorno = ll_indexOf(pArrayListPassenger, auxPasajero);
+			pPasajero = (Passenger*)ll_get(pArrayListPassenger, i);
+			if(pPasajero->id == id){
+				retorno = ll_indexOf(pArrayListPassenger, pPasajero);
 				break;
 			}
 		}
@@ -266,21 +296,24 @@ int controller_BuscarPasajeroPorID(LinkedList* pArrayListPassenger, int id){
 	return retorno;
 }
 
-/** \brief Ordenar pasajeros
+/** \brief Ordenar pasajeros. Ofrece ordenar segun cada campo de la estructura y en orden ascendente o descendente.
  *
- * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_sortPassenger(LinkedList* pArrayListPassenger){
 	int retorno = -1;
 	int opcionIngresada;
 	int opcionIngresadaOrdenamiento;
-
+	//Descripcion:
+	//1- Valido los parametros. La funcion retornara 0 en caso de haber parametros validos y -1 en caso contrario
 	 if(pArrayListPassenger != NULL){
-
 		 retorno = 0;
+
+		 //2- Muestro el menu de ordenamiento y solicito al usuario una opcion.
+		 //3- Para cada caso, se solicitara que elija entre criterio ascendente(1) o descendente(0)
+		 //4- Los ordenamientos se realizan con la funcion 'll_sort'
 		 mostrarMenuOrdenamientos();
 		 if(getInt(&opcionIngresada, "\n", "No existe esa opcion\n", 1, 7, 3) == 0){
 			 switch(opcionIngresada){
@@ -320,7 +353,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger){
 		 }
 	 }
 
-	//Si el usuario realizo algun ordenamiento, muestra la lista reordenada.
+	//5-Si el usuario realizo algun ordenamiento, muestra la lista reordenada.
 	if(opcionIngresada >= 1 && opcionIngresada <= 6){
 		controller_ListPassenger(pArrayListPassenger);
 	}
@@ -328,20 +361,21 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger){
 	return retorno;
 }
 
-/** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo texto).
- *
- * \param path char*
- * \param pArrayListPassenger LinkedList*
- * \return int
- *
- */
+
 
 //------------------------------- MANEJO ID ------------------------------------------------
 
+/** \brief Establece un ID para el pasajero
+ *
+ * \param pArrayListPassenger LinkedList*
+ * \return int. Exito: ID del pasajero // Error o parametros invalidos: -1
+ *
+ */
 int controller_generadorID(LinkedList* pArrayListPassenger){
 	int id = -1;
-
-	if(pArrayListPassenger){
+	//Descripcion:
+	//1-Esta funcion busca el ultimo ID mediante la funcion 'controller_buscarUltimoID'. Luego le suma 1 y lo retorna.
+	if(pArrayListPassenger != NULL){
 		id = controller_buscarUltimoID(pArrayListPassenger);
 		id++;
 	}
@@ -349,17 +383,25 @@ int controller_generadorID(LinkedList* pArrayListPassenger){
 	return id;
 }
 
+/** \brief Busca el ultimo ID establecido
+ *
+ * \param pArrayListPassenger LinkedList*
+ * \return int. Exito: ultimo ID establecido // Error o parametros invalidos: -1
+ *
+ */
 int controller_buscarUltimoID(LinkedList* pArrayListPassenger){
 	int id = 0;
 	int len;
-	Passenger* auxPasajero;
+	Passenger* pPasajero;
 
+	//Descripcion:
+	//1-Esta funcion recorre los pasajeros, busca el ID maximo y lo retorna.
 	len = ll_len(pArrayListPassenger);
 	if(pArrayListPassenger != NULL){
 		for(int i=0; i<len; i++){
-			auxPasajero = (Passenger*)ll_get(pArrayListPassenger, i);
-			if(auxPasajero->id > id){
-				id = auxPasajero->id;
+			pPasajero = (Passenger*)ll_get(pArrayListPassenger, i);
+			if(pPasajero->id > id){
+				id = pPasajero->id;
 			}
 		}
 	}
@@ -369,6 +411,13 @@ int controller_buscarUltimoID(LinkedList* pArrayListPassenger){
 
 //---------------------------------- SAVE --------------------------------------------------
 
+/** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
+ *
+ */
 int controller_saveAsText(char* path , LinkedList* pArrayListPassenger){
 	int retorno = -1;
     int len;
@@ -382,47 +431,29 @@ int controller_saveAsText(char* path , LinkedList* pArrayListPassenger){
     float precio;
 
     FILE* file;
-    Passenger* auxPasajero;
+    Passenger* pPasajero;
 
 
 
-    /*
-	//===================================================================
-	tipoDePasajero_codigoInterno = Passenger_getTipoPasajero(pPasajero);
-
-	if(tipoDePasajero_codigoInterno == 1){
-		strcpy(tipoDePasajeroStr, "EconomyClass");
-	}
-	else{
-		if(tipoDePasajero_codigoInterno == 2){
-			strcpy(tipoDePasajeroStr, "ExecutiveClass");
-		}
-		else{
-			strcpy(tipoDePasajeroStr, "FirstClass");
-		}
-	}
-	//===================================================================
-
-    */
     len = ll_len(pArrayListPassenger);
     file = fopen(path, "w");
 
     if(path != NULL){
     	fprintf(file,"id,name,lastname,price,flycode,typePassenger,statusFlight\n"); //Imprimo el header
     	for(int i=0; i<len; i++){
-    		auxPasajero = (Passenger*)ll_get(pArrayListPassenger, i);
+    		pPasajero = (Passenger*)ll_get(pArrayListPassenger, i);
 
-    		tipoDePasajero_codigoInterno = Passenger_getTipoPasajero(auxPasajero);
+    		tipoDePasajero_codigoInterno = Passenger_getTipoPasajero(pPasajero);
     		decodificarTipoDePasajero(tipoDePasajeroStr, tipoDePasajero_codigoInterno);
 
 
-    		id = Passenger_getId(auxPasajero);
-    		strcpy(nombre, Passenger_getNombre(auxPasajero));
-    		strcpy(apellido, Passenger_getApellido(auxPasajero));
-    		strcpy(codigoDeVuelo, Passenger_getCodigoVuelo(auxPasajero));
-    		precio = Passenger_getPrecio(auxPasajero);
-    		strcpy(codigoDeVuelo, Passenger_getCodigoVuelo(auxPasajero));
-    		strcpy(estadoDeVuelo, Passenger_getEstadoDeVuelo(auxPasajero));
+    		id = Passenger_getId(pPasajero);
+    		strcpy(nombre, Passenger_getNombre(pPasajero));
+    		strcpy(apellido, Passenger_getApellido(pPasajero));
+    		strcpy(codigoDeVuelo, Passenger_getCodigoVuelo(pPasajero));
+    		precio = Passenger_getPrecio(pPasajero);
+    		strcpy(codigoDeVuelo, Passenger_getCodigoVuelo(pPasajero));
+    		strcpy(estadoDeVuelo, Passenger_getEstadoDeVuelo(pPasajero));
     		fprintf(file,"%d,%s,%s,%.0f,%s,%s,%s\n",id,nombre,apellido,precio,codigoDeVuelo,tipoDePasajeroStr,estadoDeVuelo);
     		retorno = 0;
     	}
@@ -438,14 +469,14 @@ int controller_saveAsText(char* path , LinkedList* pArrayListPassenger){
  *
  * \param path char*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger){
 	int retorno = -1;
 	int len;
 	FILE* file;
-	Passenger* auxPasajero = NULL;
+	Passenger* pPasajero = NULL;
 
 	if(pArrayListPassenger != NULL && path != NULL){
 		retorno = 0;
@@ -453,8 +484,8 @@ int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger){
 		len = ll_len(pArrayListPassenger);
 
 		for(int i=0; i<len; i++){
-			auxPasajero = (Passenger*) ll_get(pArrayListPassenger, i);
-			fwrite(auxPasajero, sizeof(Passenger), 1, file);
+			pPasajero = (Passenger*) ll_get(pArrayListPassenger, i);
+			fwrite(pPasajero, sizeof(Passenger), 1, file);
 		}
 
 	}

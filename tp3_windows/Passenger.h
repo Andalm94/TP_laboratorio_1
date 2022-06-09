@@ -20,16 +20,71 @@ typedef struct
 
 }Passenger;
 
+/** \brief Reserva espacio en memoria dinamica para un pasajero mediante la funcion malloc.
+ *
+ * \return Exito: puntero a Passenger con campos inicializados.
+ */
 Passenger* Passenger_new();
 
+/** \brief Recibe como parametros las variables que se almacenaran en los campos de la estructura.
+ *  Devuelve un puntero Passenger que apunta a esos datos almacenados.
+ *
+ * \param char* id, nombre, apellido, codigoDeVuelo, tipoPasajero, precio, estadoDEVuelo
+ *
+ * \return Exito: Passenger* con la direccion de memoria del pasajero. ERROR: NULL
+ */
 Passenger* Passenger_newParametros(char* id, char* nombre, char* apellido, char* codigoDeVuelo, char* tipoPasajero, char* precio, char* estadoDeVuelo);
+
+
+
+/** \brief Recibe un puntero a Passenger y lo elimina -free(this)-
+ *
+ * \param Passenger* pasajero a ser eliminado
+ */
 void Passenger_delete(Passenger* this);
 
 
-//--------------------------------------- MOSTRAR ---------------------------------------------
-
+//--------------------------------------- MOSTRAR --------------------------------------------------------
+/** \brief Recibe un array de punteros a Passenger y los muestra
+ *
+ * \param Passenger** pPasajero
+ * \param len longitud del array de pasajeros.
+ *
+ * \return Exito: 0. ERROR o parametros invalidos: -1
+ */
 int mostrarPasajeros(Passenger **arrayPasajeros, int len);
+
+/** \brief Recibe el puntero a un pasajero y muestra sus campos.
+ *
+ * \param Passenger* pPasajero
+ *
+ * \return Exito: 0. ERROR o parametros invalidos: -1
+ */
 int mostrarPasajero(Passenger *pPasajero);
+
+/** \brief Traduce a codigo interno el valor en el campo 'tipoDePasajero'
+ *
+ * \param char tipoDePasajeroCodificado[] : cadena que devolvera el codigo:
+ * 	***Economic --> 1
+ *	***Executive--> 2
+ *	***First------> 3
+ * \param char tipoDePasajero[] : el valor en el campo 'tipoDePasajero'
+ *
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
+ *
+ */
+int codificarTipoDePasajero(char tipoDePasajeroCodificado[], char tipoDePasajero[]);
+
+/** \brief Traduce a codigo interno el valor en el campo 'tipoDePasajero'
+ *
+ * \param char tipoDePasajeroInt[] : cadena que devolvera el codigo:
+ * 	***Economic --> 1
+ *	***Executive--> 2
+ *	***First------> 3
+ * \param char tipoDePasajeroStr[] : el valor en el campo 'tipoDePasajero'
+ *
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
+ */
 int decodificarTipoDePasajero(char tipoDePasajeroStr[], int tipoDePasajeroint);
 
 

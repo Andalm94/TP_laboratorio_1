@@ -5,15 +5,20 @@
 #include "LinkedList.h"
 #include "Controller.h"
 #include "Passenger.h"
+#include "UTN.h"
 
 
+/** \brief Reserva espacio en memoria dinamica para un pasajero mediante la funcion malloc.
+ *
+ * \return Exito: puntero a Passenger con campos inicializados.
+ */
 Passenger* Passenger_new(){
 	Passenger *punteroPassenger;
 
 	punteroPassenger = (Passenger*)malloc(sizeof(Passenger));
 	if(punteroPassenger != NULL){
 		Passenger_setId(punteroPassenger, 0);
-		Passenger_setNombre(punteroPassenger, " ");
+		Passenger_setNombre(punteroPassenger, "");
 		Passenger_setApellido(punteroPassenger," ");
 		Passenger_setCodigoVuelo(punteroPassenger, " ");
 		Passenger_setTipoPasajero(punteroPassenger, 0);
@@ -25,25 +30,40 @@ Passenger* Passenger_new(){
 	return punteroPassenger;
 }
 
-
+/** \brief Recibe como parametros las variables que se almacenaran en los campos de la estructura.
+ *  Devuelve un puntero Passenger que apunta a esos datos almacenados.
+ *
+ * \param char* id, nombre, apellido, codigoDeVuelo, tipoPasajero, precio, estadoDEVuelo
+ *
+ * \return Exito: Passenger* con la direccion de memoria del pasajero. ERROR: NULL
+ */
 Passenger* Passenger_newParametros(char* id, char* nombre, char* apellido, char* codigoDeVuelo, char* tipoPasajero, char* precio, char* estadoDeVuelo){
 	Passenger *punteroPassenger;
+	Passenger *punteroPassengerRetorno = NULL;
 
 	punteroPassenger = Passenger_new();
 	if(punteroPassenger != NULL){
-		Passenger_setId(punteroPassenger, atoi(id));
-		Passenger_setNombre(punteroPassenger, nombre);
-		Passenger_setApellido(punteroPassenger, apellido);
-		Passenger_setCodigoVuelo(punteroPassenger, codigoDeVuelo);
-		Passenger_setTipoPasajero(punteroPassenger, atoi(tipoPasajero));
-		Passenger_setPrecio(punteroPassenger, atof(precio));
-		Passenger_setEstadoDeVuelo(punteroPassenger, estadoDeVuelo);
+
+		if(Passenger_setId(punteroPassenger, atoi(id)) == 0 &&
+			Passenger_setNombre(punteroPassenger, nombre) == 0 &&
+			Passenger_setApellido(punteroPassenger, apellido) == 0 &&
+			Passenger_setCodigoVuelo(punteroPassenger, codigoDeVuelo) == 0 &&
+			Passenger_setTipoPasajero(punteroPassenger, atoi(tipoPasajero)) == 0 &&
+			Passenger_setPrecio(punteroPassenger, atof(precio)) == 0 &&
+			Passenger_setEstadoDeVuelo(punteroPassenger, estadoDeVuelo) == 0){
+
+				punteroPassengerRetorno = punteroPassenger;
+		}
+
 	}
 
-	return punteroPassenger;
+	return punteroPassengerRetorno;
 }
 
-
+/** \brief Recibe un puntero a Passenger y lo elimina -free(this)-
+ *
+ * \param Passenger* pasajero a ser eliminado
+ */
 void Passenger_delete(Passenger* this){
 	if (this != NULL) {
 		free(this);
@@ -51,6 +71,13 @@ void Passenger_delete(Passenger* this){
 }
 
 //--------------------------------------- MOSTRAR --------------------------------------------------------
+/** \brief Recibe un array de punteros a Passenger y los muestra
+ *
+ * \param Passenger** pPasajero
+ * \param len longitud del array de pasajeros.
+ *
+ * \return Exito: 0. ERROR o parametros invalidos: -1
+ */
 int mostrarPasajeros(Passenger **arrayPasajeros, int len){
 	int retorno = -1;
 	int i;
@@ -65,6 +92,12 @@ int mostrarPasajeros(Passenger **arrayPasajeros, int len){
 	return retorno;
 }
 
+/** \brief Recibe el puntero a un pasajero y muestra sus campos.
+ *
+ * \param Passenger* pPasajero
+ *
+ * \return Exito: 0. ERROR o parametros invalidos: -1
+ */
 int mostrarPasajero(Passenger *pPasajero){
 	int retorno = -1;
 	int tipoDePasajero_codigoInterno;
@@ -72,6 +105,7 @@ int mostrarPasajero(Passenger *pPasajero){
 
 	tipoDePasajero_codigoInterno = Passenger_getTipoPasajero(pPasajero);
 	decodificarTipoDePasajero(tipoDePasajeroStr, tipoDePasajero_codigoInterno);
+
 
 	if(pPasajero != NULL){
 		retorno = 0;
@@ -88,6 +122,62 @@ int mostrarPasajero(Passenger *pPasajero){
 }
 
 
+/** \brief Traduce a codigo interno el valor en el campo 'tipoDePasajero'
+ *
+ * \param char tipoDePasajeroCodificado[] : cadena que devolvera el codigo:
+ * 	***Economic --> 1
+ *	***Executive--> 2
+ *	***First------> 3
+ * \param char tipoDePasajero[] : el valor en el campo 'tipoDePasajero'
+ *
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
+ *
+ */
+int codificarTipoDePasajero(char tipoDePasajeroCodificado[], char tipoDePasajero[]){
+	int retorno = -1;
+	char tipoDePasajeroConvertido[4];
+	strcpy(tipoDePasajeroConvertido, "0");
+	//Recibe por parametro un array de caracteres que devolvera la codificacion y otro array que contendra el valor en el campo 'tipoDePasajero' del pasajero
+	//Dependiendo del valor en tipoDePasajero, se manejara internamente con una variable tipo INT.
+	//***Economic --> 1
+	//***Executive--> 2
+	//***First------> 3
+	if(tipoDePasajeroCodificado != NULL && tipoDePasajero != NULL){
+		retorno = 0;
+
+
+		if(strcmp(tipoDePasajero, "EconomyClass") == 0){
+			strcpy(tipoDePasajeroConvertido, "1");
+		}
+		else{
+			if(strcmp(tipoDePasajero, "ExecutiveClass") == 0){
+				strcpy(tipoDePasajeroConvertido, "2");
+			}
+			else{
+				if(strcmp(tipoDePasajero, "FirstClass") == 0){
+					strcpy(tipoDePasajeroConvertido, "3");
+				}
+			}
+		}
+
+		strcpy(tipoDePasajeroCodificado, tipoDePasajeroConvertido);
+	}
+
+	return retorno;
+
+}
+
+/** \brief Traduce a array de caracteres el codigo interno del valor en el campo 'tipoDePasajero'
+ *
+ * \param char tipoDePasajeroStr[] : cadena que devolvera el siguiente string dependiendo del valor en tipoDePasajeroint
+ * 	*** 1 -----> "EconomicClass"
+ *	*** 2 -----> "ExecutiveClass"
+ *	*** 3 -----> "FirstClass"
+ * \param int tipoDePasajeroint: el valor en el campo 'tipoDePasajero'
+ *
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
+ *
+ */
 int decodificarTipoDePasajero(char tipoDePasajeroStr[], int tipoDePasajeroint){
 	int retorno = -1;
 	char tipoDePasajeroConvertido[16];
@@ -96,19 +186,21 @@ int decodificarTipoDePasajero(char tipoDePasajeroStr[], int tipoDePasajeroint){
 	if(tipoDePasajeroStr != NULL && tipoDePasajeroint > 0){
 		retorno = 0;
 
-
-		if(tipoDePasajeroint == 1){
-			strcpy(tipoDePasajeroConvertido, "EconomyClass");
-		}
-		else{
-			if(tipoDePasajeroint == 2){
+		switch (tipoDePasajeroint){
+			case 1:
+				strcpy(tipoDePasajeroConvertido, "EconomyClass");
+				break;
+			case 2:
 				strcpy(tipoDePasajeroConvertido, "ExecutiveClass");
-			}
-			else{
+				break;
+			case 3:
 				strcpy(tipoDePasajeroConvertido, "FirstClass");
-			}
+				break;
+
 		}
+
 		strcpy(tipoDePasajeroStr, tipoDePasajeroConvertido);
+
 	}
 
 	return retorno;

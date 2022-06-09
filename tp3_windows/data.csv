@@ -1,19 +1,19 @@
 id,name,lastname,price,flycode,typePassenger,statusFlight
-1,Lou,Gonz√°lez,10000,BA2491A,FirstClass,Aterrizado
-2,Ulrike,Mu√±oz,25000,IB0800A,FirstClass,Aterrizado
+1,Lou,Gonz·lez,10000,BA2491A,FirstClass,Aterrizado
+2,Ulrike,MuÒoz,25000,IB0800A,FirstClass,Aterrizado
 3,Brade,Rojas,20000,MM0987B,FirstClass,En Horario
-4,Kimbell,D√≠az,50000,BA2491A,FirstClass,Aterrizado
-5,Sheelagh,P√©rez,18000,IB0800A,FirstClass,Aterrizado
+4,Kimbell,DÌaz,50000,BA2491A,FirstClass,Aterrizado
+5,Sheelagh,PÈrez,18000,IB0800A,FirstClass,Aterrizado
 6,Gayle,Soto,30000,MM0987B,FirstClass,En Horario
 7,Kimberlee,Contreras,33000,BA2491A,FirstClass,Aterrizado
 8,Henrieta,Silva,30000,IB0800A,FirstClass,Aterrizado
-9,Jeanine,Mart√≠nez,18000,MM0987B,FirstClass,En Horario
-10,Aggie,Sep√∫lveda,15000,BA2491A,FirstClass,Aterrizado
+9,Jeanine,MartÌnez,18000,MM0987B,FirstClass,En Horario
+10,Aggie,Sep˙lveda,15000,BA2491A,FirstClass,Aterrizado
 11,Brandea,Morales,15000,IB0800A,FirstClass,Aterrizado
-12,Cordelie,Rodr√≠guez,50000,IB0800A,FirstClass,Aterrizado
-13,Shel,L√≥pez,50000,MM0987B,FirstClass,En Horario
+12,Cordelie,RodrÌguez,50000,IB0800A,FirstClass,Aterrizado
+13,Shel,LÛpez,50000,MM0987B,FirstClass,En Horario
 14,Bronnie,Fuentes,20000,MM0987B,FirstClass,En Horario
-15,Megen,Hern√°ndez,10000,BA2491A,FirstClass,Aterrizado
+15,Megen,Hern·ndez,10000,BA2491A,FirstClass,Aterrizado
 16,Iver,Torres,12000,BA2491A,FirstClass,Aterrizado
 17,Ernesta,Araya,37000,BA2491A,FirstClass,Aterrizado
 18,Cirillo,Flores,50000,MM0987B,FirstClass,En Horario
@@ -22,25 +22,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 21,Bobbye,Castillo,15000,BA2491A,FirstClass,Aterrizado
 22,Eugene,Tapia,50000,BA2491A,FirstClass,Aterrizado
 23,Johnny,Reyes,33000,MM0987B,FirstClass,En Horario
-24,Reagen,Guti√©rrez,42000,MM0987B,FirstClass,En Horario
+24,Reagen,GutiÈrrez,42000,MM0987B,FirstClass,En Horario
 25,Braden,Castro,25000,MM0987B,FirstClass,En Horario
 26,Karim,Pizarro,25000,MM0987B,FirstClass,En Horario
-27,Anthea,√Ålvarez,42000,MM0987B,FirstClass,En Horario
-28,Doro,V√°squez,33000,IB0800A,FirstClass,Aterrizado
-29,Gaye,S√°nchez,37000,IB0800A,FirstClass,Aterrizado
-30,Toby,Fern√°ndez,15000,IB0800A,FirstClass,Aterrizado
-31,Franny,Ram√≠rez,15000,IB0800A,FirstClass,Aterrizado
+27,Anthea,¡lvarez,42000,MM0987B,FirstClass,En Horario
+28,Doro,V·squez,33000,IB0800A,FirstClass,Aterrizado
+29,Gaye,S·nchez,37000,IB0800A,FirstClass,Aterrizado
+30,Toby,Fern·ndez,15000,IB0800A,FirstClass,Aterrizado
+31,Franny,RamÌrez,15000,IB0800A,FirstClass,Aterrizado
 32,Katey,Carrasco,42000,MM0987B,FirstClass,En Horario
-33,Earle,G√≥mez,10000,BA2491A,FirstClass,Aterrizado
-34,Redd,Cort√©s,42000,BA2491A,FirstClass,Aterrizado
+33,Earle,GÛmez,10000,BA2491A,FirstClass,Aterrizado
+34,Redd,CortÈs,42000,BA2491A,FirstClass,Aterrizado
 35,Jehanna,Herrera,50000,BA2491A,FirstClass,Aterrizado
-36,Cristie,N√∫√±ez,10000,BA2491A,FirstClass,Aterrizado
+36,Cristie,N˙Òez,10000,BA2491A,FirstClass,Aterrizado
 37,Stefa,Jara,42000,BA2491A,FirstClass,Aterrizado
 38,Roda,Vergara,25000,MM0987B,FirstClass,En Horario
 39,Alfredo,Rivera,10000,MM0987B,FirstClass,En Horario
 40,Sydney,Figueroa,10000,MM0987B,FirstClass,En Horario
 41,Brnaba,Riquelme,30000,MM0987B,FirstClass,En Horario
-42,Ame,Garc√≠a,50000,BA2491A,ExecutiveClass,Aterrizado
+42,Ame,GarcÌa,50000,BA2491A,ExecutiveClass,Aterrizado
 43,Bradney,Miranda,25000,BA2491A,ExecutiveClass,Aterrizado
 44,Margarete,Bravo,50000,BA2491A,ExecutiveClass,Aterrizado
 45,Nikoletta,Vera,50000,MM0987B,FirstClass,En Horario
@@ -49,15 +49,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 48,Noella,Campos,15000,IB0800A,FirstClass,Aterrizado
 49,Dagmar,Sandoval,25000,IB0800A,FirstClass,Aterrizado
 50,Carroll,Orellana,42000,IB0800A,FirstClass,Aterrizado
-51,Marion,C√°rdenas,50000,IB0800A,FirstClass,Aterrizado
+51,Marion,C·rdenas,50000,IB0800A,FirstClass,Aterrizado
 52,Carline,Olivares,12000,IB0800A,FirstClass,Aterrizado
-53,Hyacinthie,Alarc√≥n,15000,MM0987B,FirstClass,En Horario
+53,Hyacinthie,AlarcÛn,15000,MM0987B,FirstClass,En Horario
 54,Julina,Gallardo,33000,MM0987B,FirstClass,En Horario
 55,Corina,Ortiz,37000,MM0987B,FirstClass,En Horario
 56,Bernardine,Garrido,33000,MM0987B,FirstClass,En Horario
 57,Homer,Salazar,18000,MM0987B,FirstClass,En Horario
-58,Lianna,Guzm√°n,12000,MM0987B,FirstClass,En Horario
-59,Celene,Henr√≠quez,50000,MM0987B,FirstClass,En Horario
+58,Lianna,Guzm·n,12000,MM0987B,FirstClass,En Horario
+59,Celene,HenrÌquez,50000,MM0987B,FirstClass,En Horario
 60,Kori,Saavedra,50000,MM0987B,FirstClass,En Horario
 61,Deeyn,Navarro,20000,MM0987B,FirstClass,En Horario
 62,Marysa,Aguilera,20000,MM0987B,FirstClass,En Horario
@@ -65,17 +65,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 64,Gabbey,Romero,37000,MM0987B,FirstClass,En Horario
 65,Star,Aravena,33000,MM0987B,FirstClass,En Horario
 66,Dominica,Vargas,33000,IB0800A,FirstClass,Aterrizado
-67,Blanch,V√°zquez,15000,IB0800A,FirstClass,Aterrizado
-68,Cristobal,C√°ceres,15000,IB0800A,FirstClass,Aterrizado
-69,Paulita,Y√°√±ez,50000,IB0800A,FirstClass,Aterrizado
+67,Blanch,V·zquez,15000,IB0800A,FirstClass,Aterrizado
+68,Cristobal,C·ceres,15000,IB0800A,FirstClass,Aterrizado
+69,Paulita,Y·Òez,50000,IB0800A,FirstClass,Aterrizado
 70,Sayre,Leiva,33000,IB0800A,FirstClass,Aterrizado
 71,Shaughn,Escobar,15000,IB0800A,FirstClass,Aterrizado
 72,Katrine,Ruiz,25000,IB0800A,FirstClass,Aterrizado
-73,Cristi,Vald√©s,42000,IB0800A,FirstClass,Aterrizado
+73,Cristi,ValdÈs,42000,IB0800A,FirstClass,Aterrizado
 74,Cristie,Vidal,25000,IB0800A,ExecutiveClass,Aterrizado
 75,Solomon,Salinas,10000,IB0800A,ExecutiveClass,Aterrizado
-76,Nananne,Z√∫√±iga,33000,IB0800A,ExecutiveClass,Aterrizado
-77,Sacha,Pe√±a,25000,IB0800A,ExecutiveClass,Aterrizado
+76,Nananne,Z˙Òiga,33000,IB0800A,ExecutiveClass,Aterrizado
+77,Sacha,PeÒa,25000,IB0800A,ExecutiveClass,Aterrizado
 78,Morse,Godoy,25000,IB0800A,ExecutiveClass,Aterrizado
 79,Roland,Lagos,25000,IB0800A,ExecutiveClass,Aterrizado
 80,Jesselyn,Maldonado,30000,IB0800A,ExecutiveClass,Aterrizado
@@ -87,7 +87,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 86,Angie,Sanhueza,20000,MM0987B,FirstClass,En Horario
 87,Joelle,Carvajal,37000,MM0987B,FirstClass,En Horario
 88,George,Navarrete,30000,MM0987B,ExecutiveClass,En Horario
-89,Guenevere,S√°ez,30000,MM0987B,ExecutiveClass,En Horario
+89,Guenevere,S·ez,30000,MM0987B,ExecutiveClass,En Horario
 90,Margaretha,Alvarado,10000,MM0987B,ExecutiveClass,En Horario
 91,Sully,Donoso,15000,MM0987B,ExecutiveClass,En Horario
 92,Lonni,Poblete,50000,MM0987B,ExecutiveClass,En Horario
@@ -97,47 +97,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 96,Martino,Venegas,15000,IB0800A,ExecutiveClass,Aterrizado
 97,Marcellus,Guerrero,50000,IB0800A,ExecutiveClass,Aterrizado
 98,Jacquelin,Mendoza,30000,IB0800A,ExecutiveClass,Aterrizado
-99,Aleda,Far√≠as,50000,IB0800A,ExecutiveClass,Aterrizado
-100,Georgeta,San Mart√≠n,10000,IB0800A,ExecutiveClass,Aterrizado
-101,Marcille,Gonz√°lez,10000,IB0800A,ExecutiveClass,Aterrizado
-102,Ertha,Fern√°ndez,10000,IB0800A,ExecutiveClass,Aterrizado
-103,Desiri,Rodr√≠guez,25000,MM0987B,ExecutiveClass,En Horario
-104,Geneva,L√≥pez,33000,MM0987B,ExecutiveClass,En Horario
-105,Kilian,Mart√≠nez,42000,MM0987B,ExecutiveClass,En Horario
-106,Nance,S√°nchez,10000,MM0987B,ExecutiveClass,En Horario
-107,Gaven,P√©rez,10000,MM0987B,ExecutiveClass,En Horario
-108,Carlie,G√≥mez,10000,MM0987B,ExecutiveClass,En Horario
-109,Trixie,Mart√≠n,42000,IB0800A,ExecutiveClass,Aterrizado
-110,Dominick,Jim√©nez,30000,IB0800A,ExecutiveClass,Aterrizado
+99,Aleda,FarÌas,50000,IB0800A,ExecutiveClass,Aterrizado
+100,Georgeta,San MartÌn,10000,IB0800A,ExecutiveClass,Aterrizado
+101,Marcille,Gonz·lez,10000,IB0800A,ExecutiveClass,Aterrizado
+102,Ertha,Fern·ndez,10000,IB0800A,ExecutiveClass,Aterrizado
+103,Desiri,RodrÌguez,25000,MM0987B,ExecutiveClass,En Horario
+104,Geneva,LÛpez,33000,MM0987B,ExecutiveClass,En Horario
+105,Kilian,MartÌnez,42000,MM0987B,ExecutiveClass,En Horario
+106,Nance,S·nchez,10000,MM0987B,ExecutiveClass,En Horario
+107,Gaven,PÈrez,10000,MM0987B,ExecutiveClass,En Horario
+108,Carlie,GÛmez,10000,MM0987B,ExecutiveClass,En Horario
+109,Trixie,MartÌn,42000,IB0800A,ExecutiveClass,Aterrizado
+110,Dominick,JimÈnez,30000,IB0800A,ExecutiveClass,Aterrizado
 111,Petey,Ruiz,15000,IB0800A,ExecutiveClass,Aterrizado
-112,Tersina,Hern√°ndez,30000,IB0800A,ExecutiveClass,Aterrizado
-113,Johnathon,D√≠az,15000,IB0800A,ExecutiveClass,Aterrizado
+112,Tersina,Hern·ndez,30000,IB0800A,ExecutiveClass,Aterrizado
+113,Johnathon,DÌaz,15000,IB0800A,ExecutiveClass,Aterrizado
 114,Freddie,Moreno,12000,IB0800A,ExecutiveClass,Aterrizado
-115,Harmon,√Ålvarez,50000,IB0800A,ExecutiveClass,Aterrizado
-116,Tracey,Mu√±oz,20000,IB0800A,ExecutiveClass,Aterrizado
+115,Harmon,¡lvarez,50000,IB0800A,ExecutiveClass,Aterrizado
+116,Tracey,MuÒoz,20000,IB0800A,ExecutiveClass,Aterrizado
 117,Cherrita,Romero,33000,MM0987B,ExecutiveClass,En Horario
 118,Stu,Alonso,12000,MM0987B,ExecutiveClass,En Horario
-119,Glenda,Guti√©rrez,37000,MM0987B,ExecutiveClass,En Horario
+119,Glenda,GutiÈrrez,37000,MM0987B,ExecutiveClass,En Horario
 120,Lorettalorna,Navarro,25000,MM0987B,ExecutiveClass,En Horario
 121,Patrizio,Torres,15000,IB0800A,ExecutiveClass,Aterrizado
-122,Linda,Dom√≠nguez,30000,IB0800A,ExecutiveClass,Aterrizado
-123,Pippa,V√°zquez,20000,IB0800A,ExecutiveClass,Aterrizado
+122,Linda,DomÌnguez,30000,IB0800A,ExecutiveClass,Aterrizado
+123,Pippa,V·zquez,20000,IB0800A,ExecutiveClass,Aterrizado
 124,Pen,Ramos,18000,IB0800A,EconomyClass,Aterrizado
-125,Esteban,Gonz√°lez,15000,IB0800A,EconomyClass,Aterrizado
-126,Fonzie,Mu√±oz,15000,IB0800A,EconomyClass,Aterrizado
+125,Esteban,Gonz·lez,15000,IB0800A,EconomyClass,Aterrizado
+126,Fonzie,MuÒoz,15000,IB0800A,EconomyClass,Aterrizado
 127,Cindelyn,Rojas,12000,IB0800A,EconomyClass,Aterrizado
-128,Zacharie,D√≠az,30000,BA2491A,ExecutiveClass,Aterrizado
-129,Vina,P√©rez,42000,BA2491A,ExecutiveClass,Aterrizado
+128,Zacharie,DÌaz,30000,BA2491A,ExecutiveClass,Aterrizado
+129,Vina,PÈrez,42000,BA2491A,ExecutiveClass,Aterrizado
 130,Omero,Soto,10000,BA2491A,ExecutiveClass,Aterrizado
 131,Tom,Contreras,33000,BA2491A,ExecutiveClass,Aterrizado
 132,Dante,Silva,30000,BA2491A,ExecutiveClass,Aterrizado
-133,Cordy,Mart√≠nez,18000,BA2491A,ExecutiveClass,Aterrizado
-134,Stephenie,Sep√∫lveda,50000,BA2491A,ExecutiveClass,Aterrizado
+133,Cordy,MartÌnez,18000,BA2491A,ExecutiveClass,Aterrizado
+134,Stephenie,Sep˙lveda,50000,BA2491A,ExecutiveClass,Aterrizado
 135,Dunstan,Morales,20000,BA2491A,ExecutiveClass,Aterrizado
-136,Gideon,Rodr√≠guez,15000,BA2491A,ExecutiveClass,Aterrizado
-137,Johnette,L√≥pez,10000,BA2491A,ExecutiveClass,Aterrizado
+136,Gideon,RodrÌguez,15000,BA2491A,ExecutiveClass,Aterrizado
+137,Johnette,LÛpez,10000,BA2491A,ExecutiveClass,Aterrizado
 138,Brynn,Fuentes,50000,BA2491A,ExecutiveClass,Aterrizado
-139,Yankee,Hern√°ndez,42000,BA2491A,ExecutiveClass,Aterrizado
+139,Yankee,Hern·ndez,42000,BA2491A,ExecutiveClass,Aterrizado
 140,Corbin,Torres,42000,BA2491A,ExecutiveClass,Aterrizado
 141,Coreen,Araya,18000,IB0800A,EconomyClass,Aterrizado
 142,Tanya,Flores,30000,IB0800A,EconomyClass,Aterrizado
@@ -146,25 +146,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 145,Dianna,Castillo,20000,IB0800A,EconomyClass,Aterrizado
 146,Armand,Tapia,15000,IB0800A,EconomyClass,Aterrizado
 147,Gustie,Reyes,42000,IB0800A,EconomyClass,Aterrizado
-148,Benton,Guti√©rrez,12000,IB0800A,EconomyClass,Aterrizado
+148,Benton,GutiÈrrez,12000,IB0800A,EconomyClass,Aterrizado
 149,Lena,Castro,25000,IB0800A,EconomyClass,Aterrizado
 150,Dot,Pizarro,18000,IB0800A,EconomyClass,Aterrizado
-151,Meryl,√Ålvarez,12000,IB0800A,EconomyClass,Aterrizado
-152,Babbie,V√°squez,15000,IB0800A,EconomyClass,Aterrizado
-153,Byram,S√°nchez,42000,IB0800A,EconomyClass,Aterrizado
-154,Bertine,Fern√°ndez,25000,IB0800A,EconomyClass,Aterrizado
-155,Osbert,Ram√≠rez,42000,IB0800A,EconomyClass,Aterrizado
+151,Meryl,¡lvarez,12000,IB0800A,EconomyClass,Aterrizado
+152,Babbie,V·squez,15000,IB0800A,EconomyClass,Aterrizado
+153,Byram,S·nchez,42000,IB0800A,EconomyClass,Aterrizado
+154,Bertine,Fern·ndez,25000,IB0800A,EconomyClass,Aterrizado
+155,Osbert,RamÌrez,42000,IB0800A,EconomyClass,Aterrizado
 156,Tanny,Carrasco,42000,IB0800A,EconomyClass,Aterrizado
-157,Maryjo,G√≥mez,12000,IB0800A,EconomyClass,Aterrizado
-158,Clarie,Cort√©s,42000,IB0800A,EconomyClass,Aterrizado
+157,Maryjo,GÛmez,12000,IB0800A,EconomyClass,Aterrizado
+158,Clarie,CortÈs,42000,IB0800A,EconomyClass,Aterrizado
 159,Kipp,Herrera,15000,IB0800A,EconomyClass,Aterrizado
-160,Leonie,N√∫√±ez,50000,IB0800A,EconomyClass,Aterrizado
+160,Leonie,N˙Òez,50000,IB0800A,EconomyClass,Aterrizado
 161,Ferdie,Jara,15000,IB0800A,EconomyClass,Aterrizado
 162,Ofella,Vergara,50000,IB0800A,EconomyClass,Aterrizado
 163,Pascale,Rivera,15000,IB0800A,EconomyClass,Aterrizado
 164,Cathrin,Figueroa,30000,IB0800A,EconomyClass,Aterrizado
 165,Sib,Riquelme,33000,IB0800A,EconomyClass,Aterrizado
-166,Darleen,Garc√≠a,42000,IB0800A,EconomyClass,Aterrizado
+166,Darleen,GarcÌa,42000,IB0800A,EconomyClass,Aterrizado
 167,Didi,Miranda,15000,IB0800A,EconomyClass,Aterrizado
 168,Lodovico,Bravo,18000,IB0800A,EconomyClass,Aterrizado
 169,Farley,Vera,12000,IB0800A,EconomyClass,Aterrizado
@@ -173,15 +173,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 172,Addy,Campos,33000,IB0800A,EconomyClass,Aterrizado
 173,Brandon,Sandoval,18000,IB0800A,EconomyClass,Aterrizado
 174,Prentiss,Orellana,30000,IB0800A,EconomyClass,Aterrizado
-175,Lorant,C√°rdenas,50000,MM0987B,ExecutiveClass,En Horario
+175,Lorant,C·rdenas,50000,MM0987B,ExecutiveClass,En Horario
 176,Wanids,Olivares,30000,MM0987B,ExecutiveClass,En Horario
-177,Robbi,Alarc√≥n,10000,MM0987B,ExecutiveClass,En Horario
+177,Robbi,AlarcÛn,10000,MM0987B,ExecutiveClass,En Horario
 178,Mellicent,Gallardo,50000,MM0987B,ExecutiveClass,En Horario
 179,Lynea,Ortiz,20000,MM0987B,ExecutiveClass,En Horario
 180,Nial,Garrido,15000,MM0987B,ExecutiveClass,En Horario
 181,Guillaume,Salazar,37000,MM0987B,ExecutiveClass,En Horario
-182,Loutitia,Guzm√°n,25000,MM0987B,ExecutiveClass,En Horario
-183,Ruthe,Henr√≠quez,30000,MM0987B,ExecutiveClass,En Horario
+182,Loutitia,Guzm·n,25000,MM0987B,ExecutiveClass,En Horario
+183,Ruthe,HenrÌquez,30000,MM0987B,ExecutiveClass,En Horario
 184,Eric,Saavedra,50000,MM0987B,ExecutiveClass,En Horario
 185,Marcellus,Navarro,30000,MM0987B,ExecutiveClass,En Horario
 186,Ian,Aguilera,42000,MM0987B,ExecutiveClass,En Horario
@@ -189,17 +189,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 188,Scarface,Romero,50000,MM0987B,ExecutiveClass,En Horario
 189,Maible,Aravena,18000,MM0987B,ExecutiveClass,En Horario
 190,Waldon,Vargas,30000,MM0987B,ExecutiveClass,En Horario
-191,Bethina,V√°zquez,15000,MM0987B,ExecutiveClass,En Horario
-192,Farand,C√°ceres,42000,MM0987B,ExecutiveClass,En Horario
-193,Zolly,Y√°√±ez,25000,MM0987B,ExecutiveClass,En Horario
+191,Bethina,V·zquez,15000,MM0987B,ExecutiveClass,En Horario
+192,Farand,C·ceres,42000,MM0987B,ExecutiveClass,En Horario
+193,Zolly,Y·Òez,25000,MM0987B,ExecutiveClass,En Horario
 194,Philipa,Leiva,42000,TU6789B,FirstClass,Aterrizado
 195,Roderigo,Escobar,20000,BA2491A,ExecutiveClass,Aterrizado
 196,Otho,Ruiz,20000,BA2491A,ExecutiveClass,Aterrizado
-197,Alasteir,Vald√©s,20000,BA2491A,ExecutiveClass,Aterrizado
+197,Alasteir,ValdÈs,20000,BA2491A,ExecutiveClass,Aterrizado
 198,Eleonora,Vidal,42000,BA2491A,EconomyClass,Aterrizado
 199,Eliot,Salinas,12000,BA2491A,EconomyClass,Aterrizado
-200,Alana,Z√∫√±iga,30000,BA2491A,EconomyClass,Aterrizado
-201,Odey,Pe√±a,20000,BA2491A,EconomyClass,Aterrizado
+200,Alana,Z˙Òiga,30000,BA2491A,EconomyClass,Aterrizado
+201,Odey,PeÒa,20000,BA2491A,EconomyClass,Aterrizado
 202,Yorke,Godoy,15000,BA2491A,EconomyClass,Aterrizado
 203,Cissiee,Lagos,18000,BA2491A,EconomyClass,Aterrizado
 204,Jillana,Maldonado,18000,BA2491A,EconomyClass,Aterrizado
@@ -211,7 +211,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 210,Sayres,Sanhueza,10000,TU6789B,FirstClass,Aterrizado
 211,Marcile,Carvajal,30000,TU6789B,FirstClass,Aterrizado
 212,Thomasina,Navarrete,42000,TU6789B,FirstClass,Aterrizado
-213,Darwin,S√°ez,18000,TU6789B,FirstClass,Aterrizado
+213,Darwin,S·ez,18000,TU6789B,FirstClass,Aterrizado
 214,Nicolina,Alvarado,30000,TU6789B,FirstClass,Aterrizado
 215,Nita,Donoso,12000,TU6789B,FirstClass,Aterrizado
 216,Nikoletta,Poblete,12000,TU6789B,FirstClass,Aterrizado
@@ -221,47 +221,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 220,Mozes,Venegas,25000,TU6789B,FirstClass,Aterrizado
 221,Aylmer,Guerrero,33000,TU6789B,FirstClass,Aterrizado
 222,Marina,Mendoza,12000,TU6789B,FirstClass,Aterrizado
-223,Enrico,Far√≠as,50000,TU6789B,FirstClass,Aterrizado
-224,Zonda,San Mart√≠n,33000,TU6789B,FirstClass,Aterrizado
-225,Adriano,Gonz√°lez,33000,TU6789B,FirstClass,Aterrizado
-226,Trula,Fern√°ndez,30000,TU6789B,FirstClass,Aterrizado
-227,Adel,Rodr√≠guez,30000,TU6789B,FirstClass,Aterrizado
-228,Jeniece,L√≥pez,15000,TU6789B,FirstClass,Aterrizado
-229,Tabina,Mart√≠nez,10000,TU6789B,FirstClass,Aterrizado
-230,Liana,S√°nchez,33000,TU6789B,FirstClass,Aterrizado
-231,Marmaduke,P√©rez,10000,BA2491A,EconomyClass,Aterrizado
-232,Alla,G√≥mez,30000,BA2491A,EconomyClass,Aterrizado
-233,Peter,Mart√≠n,12000,BA2491A,EconomyClass,Aterrizado
-234,Pietro,Jim√©nez,18000,BA2491A,EconomyClass,Aterrizado
+223,Enrico,FarÌas,50000,TU6789B,FirstClass,Aterrizado
+224,Zonda,San MartÌn,33000,TU6789B,FirstClass,Aterrizado
+225,Adriano,Gonz·lez,33000,TU6789B,FirstClass,Aterrizado
+226,Trula,Fern·ndez,30000,TU6789B,FirstClass,Aterrizado
+227,Adel,RodrÌguez,30000,TU6789B,FirstClass,Aterrizado
+228,Jeniece,LÛpez,15000,TU6789B,FirstClass,Aterrizado
+229,Tabina,MartÌnez,10000,TU6789B,FirstClass,Aterrizado
+230,Liana,S·nchez,33000,TU6789B,FirstClass,Aterrizado
+231,Marmaduke,PÈrez,10000,BA2491A,EconomyClass,Aterrizado
+232,Alla,GÛmez,30000,BA2491A,EconomyClass,Aterrizado
+233,Peter,MartÌn,12000,BA2491A,EconomyClass,Aterrizado
+234,Pietro,JimÈnez,18000,BA2491A,EconomyClass,Aterrizado
 235,Hiram,Ruiz,20000,BA2491A,EconomyClass,Aterrizado
-236,Anastasia,Hern√°ndez,18000,BA2491A,EconomyClass,Aterrizado
-237,Cathleen,D√≠az,10000,TU6789B,FirstClass,Aterrizado
+236,Anastasia,Hern·ndez,18000,BA2491A,EconomyClass,Aterrizado
+237,Cathleen,DÌaz,10000,TU6789B,FirstClass,Aterrizado
 238,Leeanne,Moreno,15000,TU6789B,FirstClass,Aterrizado
-239,Chet,√Ålvarez,42000,TU6789B,FirstClass,Aterrizado
-240,Billie,Mu√±oz,37000,TU6789B,FirstClass,Aterrizado
+239,Chet,¡lvarez,42000,TU6789B,FirstClass,Aterrizado
+240,Billie,MuÒoz,37000,TU6789B,FirstClass,Aterrizado
 241,Alexandra,Romero,42000,TU6789B,FirstClass,Aterrizado
 242,Broddie,Alonso,42000,TU6789B,ExecutiveClass,Aterrizado
-243,Brigham,Guti√©rrez,25000,TU6789B,ExecutiveClass,Aterrizado
+243,Brigham,GutiÈrrez,25000,TU6789B,ExecutiveClass,Aterrizado
 244,Cal,Navarro,42000,TU6789B,ExecutiveClass,Aterrizado
 245,Donal,Torres,18000,TU6789B,ExecutiveClass,Aterrizado
-246,Adam,Dom√≠nguez,20000,TU6789B,ExecutiveClass,Aterrizado
-247,Dotty,V√°zquez,42000,TU6789B,ExecutiveClass,Aterrizado
+246,Adam,DomÌnguez,20000,TU6789B,ExecutiveClass,Aterrizado
+247,Dotty,V·zquez,42000,TU6789B,ExecutiveClass,Aterrizado
 248,Maynard,Ramos,18000,TU6789B,ExecutiveClass,Aterrizado
-249,Jessee,Gonz√°lez,30000,TU6789B,ExecutiveClass,Aterrizado
-250,Tiphani,Mu√±oz,42000,TU6789B,ExecutiveClass,Aterrizado
+249,Jessee,Gonz·lez,30000,TU6789B,ExecutiveClass,Aterrizado
+250,Tiphani,MuÒoz,42000,TU6789B,ExecutiveClass,Aterrizado
 251,Jenna,Rojas,30000,TU6789B,ExecutiveClass,Aterrizado
-252,Karlotte,D√≠az,20000,BA2491A,EconomyClass,Aterrizado
-253,Norene,P√©rez,25000,BA2491A,EconomyClass,Aterrizado
+252,Karlotte,DÌaz,20000,BA2491A,EconomyClass,Aterrizado
+253,Norene,PÈrez,25000,BA2491A,EconomyClass,Aterrizado
 254,Morris,Soto,10000,BA2491A,EconomyClass,Aterrizado
 255,Yuri,Contreras,25000,BA2491A,EconomyClass,Aterrizado
 256,Gusty,Silva,10000,BA2491A,EconomyClass,Aterrizado
-257,Jori,Mart√≠nez,12000,BA2491A,EconomyClass,Aterrizado
-258,Sydelle,Sep√∫lveda,30000,BA2491A,EconomyClass,Aterrizado
+257,Jori,MartÌnez,12000,BA2491A,EconomyClass,Aterrizado
+258,Sydelle,Sep˙lveda,30000,BA2491A,EconomyClass,Aterrizado
 259,Merrile,Morales,50000,BA2491A,EconomyClass,Aterrizado
-260,Tadd,Rodr√≠guez,50000,TU6789B,ExecutiveClass,Aterrizado
-261,Josiah,L√≥pez,10000,TU6789B,ExecutiveClass,Aterrizado
+260,Tadd,RodrÌguez,50000,TU6789B,ExecutiveClass,Aterrizado
+261,Josiah,LÛpez,10000,TU6789B,ExecutiveClass,Aterrizado
 262,Melisa,Fuentes,12000,TU6789B,ExecutiveClass,Aterrizado
-263,Orelee,Hern√°ndez,20000,TU6789B,ExecutiveClass,Aterrizado
+263,Orelee,Hern·ndez,20000,TU6789B,ExecutiveClass,Aterrizado
 264,Stephen,Torres,37000,TU6789B,ExecutiveClass,Aterrizado
 265,Blair,Araya,50000,TU6789B,ExecutiveClass,Aterrizado
 266,Arel,Flores,30000,TU6789B,ExecutiveClass,Aterrizado
@@ -270,25 +270,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 269,Shirl,Castillo,20000,TU6789B,ExecutiveClass,Aterrizado
 270,Edlin,Tapia,20000,TU6789B,ExecutiveClass,Aterrizado
 271,Larina,Reyes,18000,TU6789B,ExecutiveClass,Aterrizado
-272,Duncan,Guti√©rrez,37000,TU6789B,ExecutiveClass,Aterrizado
+272,Duncan,GutiÈrrez,37000,TU6789B,ExecutiveClass,Aterrizado
 273,Bond,Castro,10000,TU6789B,ExecutiveClass,Aterrizado
 274,Dyann,Pizarro,50000,TU6789B,ExecutiveClass,Aterrizado
-275,Charmian,√Ålvarez,15000,TU6789B,ExecutiveClass,Aterrizado
-276,Dru,V√°squez,50000,TU6789B,ExecutiveClass,Aterrizado
-277,Kiel,S√°nchez,50000,TU6789B,ExecutiveClass,Aterrizado
-278,Emory,Fern√°ndez,15000,TU6789B,ExecutiveClass,Aterrizado
-279,Alberik,Ram√≠rez,50000,TU6789B,ExecutiveClass,Aterrizado
+275,Charmian,¡lvarez,15000,TU6789B,ExecutiveClass,Aterrizado
+276,Dru,V·squez,50000,TU6789B,ExecutiveClass,Aterrizado
+277,Kiel,S·nchez,50000,TU6789B,ExecutiveClass,Aterrizado
+278,Emory,Fern·ndez,15000,TU6789B,ExecutiveClass,Aterrizado
+279,Alberik,RamÌrez,50000,TU6789B,ExecutiveClass,Aterrizado
 280,Koenraad,Carrasco,20000,TU6789B,ExecutiveClass,Aterrizado
-281,Rafaellle,G√≥mez,50000,TU6789B,ExecutiveClass,Aterrizado
-282,Edie,Cort√©s,25000,TU6789B,ExecutiveClass,Aterrizado
+281,Rafaellle,GÛmez,50000,TU6789B,ExecutiveClass,Aterrizado
+282,Edie,CortÈs,25000,TU6789B,ExecutiveClass,Aterrizado
 283,Osbert,Herrera,15000,TU6789B,ExecutiveClass,Aterrizado
-284,Sidonia,N√∫√±ez,10000,TU6789B,ExecutiveClass,Aterrizado
+284,Sidonia,N˙Òez,10000,TU6789B,ExecutiveClass,Aterrizado
 285,Bartel,Jara,37000,TU6789B,ExecutiveClass,Aterrizado
 286,Jodi,Vergara,30000,BA2491A,EconomyClass,Aterrizado
 287,Ofelia,Rivera,30000,BA2491A,EconomyClass,Aterrizado
 288,Dudley,Figueroa,42000,BA2491A,EconomyClass,Aterrizado
 289,Dulcea,Riquelme,25000,BA2491A,EconomyClass,Aterrizado
-290,Gordon,Garc√≠a,25000,BA2491A,EconomyClass,Aterrizado
+290,Gordon,GarcÌa,25000,BA2491A,EconomyClass,Aterrizado
 291,Chalmers,Miranda,10000,BA2491A,EconomyClass,Aterrizado
 292,Christiano,Bravo,50000,BA2491A,EconomyClass,Aterrizado
 293,Russell,Vera,50000,BA2491A,EconomyClass,Aterrizado
@@ -297,15 +297,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 296,Leigh,Campos,37000,TU6789B,ExecutiveClass,Aterrizado
 297,Ddene,Sandoval,12000,TU6789B,ExecutiveClass,Aterrizado
 298,Sayre,Orellana,18000,TU6789B,EconomyClass,Aterrizado
-299,Jody,C√°rdenas,33000,TU6789B,EconomyClass,Aterrizado
+299,Jody,C·rdenas,33000,TU6789B,EconomyClass,Aterrizado
 300,Zabrina,Olivares,12000,TU6789B,EconomyClass,Aterrizado
-301,Cos,Alarc√≥n,30000,TU6789B,EconomyClass,Aterrizado
+301,Cos,AlarcÛn,30000,TU6789B,EconomyClass,Aterrizado
 302,Ron,Gallardo,20000,TU6789B,EconomyClass,Aterrizado
 303,Charin,Ortiz,12000,TU6789B,EconomyClass,Aterrizado
 304,Coleman,Garrido,33000,TU6789B,EconomyClass,Aterrizado
 305,Jacinda,Salazar,50000,TU6789B,EconomyClass,Aterrizado
-306,Silvan,Guzm√°n,12000,TU6789B,EconomyClass,Aterrizado
-307,Renie,Henr√≠quez,33000,TU6789B,EconomyClass,Aterrizado
+306,Silvan,Guzm·n,12000,TU6789B,EconomyClass,Aterrizado
+307,Renie,HenrÌquez,33000,TU6789B,EconomyClass,Aterrizado
 308,Davide,Saavedra,42000,TU6789B,EconomyClass,Aterrizado
 309,Ernestus,Navarro,12000,TU6789B,EconomyClass,Aterrizado
 310,Brnaba,Aguilera,37000,TU6789B,EconomyClass,Aterrizado
@@ -313,17 +313,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 312,Lenci,Romero,42000,TU6789B,EconomyClass,Aterrizado
 313,Franchot,Aravena,12000,TU6789B,EconomyClass,Aterrizado
 314,Charisse,Vargas,50000,TU6789B,EconomyClass,Aterrizado
-315,Timothea,V√°zquez,20000,TU6789B,EconomyClass,Aterrizado
-316,Angelika,C√°ceres,50000,BA2491A,EconomyClass,Aterrizado
-317,Web,Y√°√±ez,37000,BA2491A,EconomyClass,Aterrizado
+315,Timothea,V·zquez,20000,TU6789B,EconomyClass,Aterrizado
+316,Angelika,C·ceres,50000,BA2491A,EconomyClass,Aterrizado
+317,Web,Y·Òez,37000,BA2491A,EconomyClass,Aterrizado
 318,Urban,Leiva,10000,BA2491A,EconomyClass,Aterrizado
 319,Fan,Escobar,18000,BA2491A,EconomyClass,Aterrizado
 320,Donaugh,Ruiz,12000,BA2491A,EconomyClass,Aterrizado
-321,Wilona,Vald√©s,25000,BA2491A,EconomyClass,Aterrizado
+321,Wilona,ValdÈs,25000,BA2491A,EconomyClass,Aterrizado
 322,Richard,Vidal,42000,BA2491A,EconomyClass,Aterrizado
 323,Hilary,Salinas,37000,BA2491A,EconomyClass,Aterrizado
-324,Ad,Z√∫√±iga,33000,BA2491A,EconomyClass,Aterrizado
-325,Maynord,Pe√±a,42000,BA2491A,EconomyClass,Aterrizado
+324,Ad,Z˙Òiga,33000,BA2491A,EconomyClass,Aterrizado
+325,Maynord,PeÒa,42000,BA2491A,EconomyClass,Aterrizado
 326,Lina,Godoy,12000,TU6789B,EconomyClass,Aterrizado
 327,Nerty,Lagos,20000,TU6789B,EconomyClass,Aterrizado
 328,Matias,Maldonado,33000,TU6789B,EconomyClass,Aterrizado
@@ -335,7 +335,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 334,Isak,Sanhueza,20000,TU6789B,EconomyClass,Aterrizado
 335,Rand,Carvajal,20000,TU6789B,EconomyClass,Aterrizado
 336,Dominique,Navarrete,37000,TU6789B,EconomyClass,Aterrizado
-337,Lira,S√°ez,30000,TU6789B,EconomyClass,Aterrizado
+337,Lira,S·ez,30000,TU6789B,EconomyClass,Aterrizado
 338,Filbert,Alvarado,20000,TU6789B,EconomyClass,Aterrizado
 339,Nona,Donoso,30000,TU6789B,EconomyClass,Aterrizado
 340,Melloney,Poblete,33000,TU6789B,EconomyClass,Aterrizado
@@ -345,47 +345,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 344,Genevra,Venegas,10000,TU6789B,EconomyClass,Aterrizado
 345,Aldric,Guerrero,50000,TU6789B,EconomyClass,Aterrizado
 346,Janeta,Mendoza,10000,TU6789B,EconomyClass,Aterrizado
-347,Tarra,Far√≠as,12000,TU6789B,EconomyClass,Aterrizado
-348,Jefferey,San Mart√≠n,33000,TU6789B,EconomyClass,Aterrizado
-349,Cassie,Gonz√°lez,50000,TU6789B,EconomyClass,Aterrizado
-350,Maiga,Fern√°ndez,20000,TU6789B,EconomyClass,Aterrizado
-351,Heddi,Rodr√≠guez,20000,TU6789B,EconomyClass,Aterrizado
-352,Marieann,L√≥pez,50000,TU6789B,EconomyClass,Aterrizado
-353,Carita,Mart√≠nez,42000,TU6789B,EconomyClass,Aterrizado
-354,Kurtis,S√°nchez,50000,TU6789B,EconomyClass,Aterrizado
-355,Wilfred,P√©rez,20000,TU6789B,EconomyClass,Aterrizado
-356,Isabelle,G√≥mez,20000,TU6789B,EconomyClass,Aterrizado
-357,Nisse,Mart√≠n,37000,TU6789B,EconomyClass,Aterrizado
-358,Ula,Jim√©nez,50000,TU6789B,EconomyClass,Aterrizado
+347,Tarra,FarÌas,12000,TU6789B,EconomyClass,Aterrizado
+348,Jefferey,San MartÌn,33000,TU6789B,EconomyClass,Aterrizado
+349,Cassie,Gonz·lez,50000,TU6789B,EconomyClass,Aterrizado
+350,Maiga,Fern·ndez,20000,TU6789B,EconomyClass,Aterrizado
+351,Heddi,RodrÌguez,20000,TU6789B,EconomyClass,Aterrizado
+352,Marieann,LÛpez,50000,TU6789B,EconomyClass,Aterrizado
+353,Carita,MartÌnez,42000,TU6789B,EconomyClass,Aterrizado
+354,Kurtis,S·nchez,50000,TU6789B,EconomyClass,Aterrizado
+355,Wilfred,PÈrez,20000,TU6789B,EconomyClass,Aterrizado
+356,Isabelle,GÛmez,20000,TU6789B,EconomyClass,Aterrizado
+357,Nisse,MartÌn,37000,TU6789B,EconomyClass,Aterrizado
+358,Ula,JimÈnez,50000,TU6789B,EconomyClass,Aterrizado
 359,Tully,Ruiz,18000,TU6789B,EconomyClass,Aterrizado
-360,Honor,Hern√°ndez,30000,TU6789B,EconomyClass,Aterrizado
-361,Sinclair,D√≠az,50000,TU6789B,EconomyClass,Aterrizado
+360,Honor,Hern·ndez,30000,TU6789B,EconomyClass,Aterrizado
+361,Sinclair,DÌaz,50000,TU6789B,EconomyClass,Aterrizado
 362,Buddy,Moreno,50000,TU6789B,EconomyClass,Aterrizado
-363,Neilla,√Ålvarez,50000,TU6789B,EconomyClass,Aterrizado
-364,Junie,Mu√±oz,20000,TU6789B,EconomyClass,Aterrizado
+363,Neilla,¡lvarez,50000,TU6789B,EconomyClass,Aterrizado
+364,Junie,MuÒoz,20000,TU6789B,EconomyClass,Aterrizado
 365,Neely,Romero,20000,TU6789B,EconomyClass,Aterrizado
 366,Klarrisa,Alonso,18000,TU6789B,EconomyClass,Aterrizado
-367,Maryellen,Guti√©rrez,37000,TU6789B,EconomyClass,Aterrizado
+367,Maryellen,GutiÈrrez,37000,TU6789B,EconomyClass,Aterrizado
 368,Clywd,Navarro,33000,TU6789B,EconomyClass,Aterrizado
 369,Deni,Torres,42000,TU6789B,EconomyClass,Aterrizado
-370,Ingrim,Dom√≠nguez,30000,TU6789B,EconomyClass,Aterrizado
-371,Franni,V√°zquez,42000,TU6789B,EconomyClass,Aterrizado
+370,Ingrim,DomÌnguez,30000,TU6789B,EconomyClass,Aterrizado
+371,Franni,V·zquez,42000,TU6789B,EconomyClass,Aterrizado
 372,Andy,Ramos,37000,TU6789B,EconomyClass,Aterrizado
-373,Veronica,Gonz√°lez,42000,TU6789B,EconomyClass,Aterrizado
-374,Dalis,Mu√±oz,42000,TU6789B,EconomyClass,Aterrizado
+373,Veronica,Gonz·lez,42000,TU6789B,EconomyClass,Aterrizado
+374,Dalis,MuÒoz,42000,TU6789B,EconomyClass,Aterrizado
 375,Nanni,Rojas,25000,BA2491A,EconomyClass,Aterrizado
-376,Vikky,D√≠az,15000,BA2491A,EconomyClass,Aterrizado
-377,Hussein,P√©rez,25000,BA2491A,EconomyClass,Aterrizado
+376,Vikky,DÌaz,15000,BA2491A,EconomyClass,Aterrizado
+377,Hussein,PÈrez,25000,BA2491A,EconomyClass,Aterrizado
 378,Brigg,Soto,10000,BA2491A,EconomyClass,Aterrizado
 379,Crawford,Contreras,12000,BA2491A,EconomyClass,Aterrizado
 380,Fran,Silva,30000,BA2491A,EconomyClass,Aterrizado
-381,Silas,Mart√≠nez,15000,BA2491A,EconomyClass,Aterrizado
-382,Alister,Sep√∫lveda,33000,BA2491A,EconomyClass,Aterrizado
+381,Silas,MartÌnez,15000,BA2491A,EconomyClass,Aterrizado
+382,Alister,Sep˙lveda,33000,BA2491A,EconomyClass,Aterrizado
 383,George,Morales,15000,TU6789B,EconomyClass,Aterrizado
-384,Nonnah,Rodr√≠guez,25000,TU6789B,EconomyClass,Aterrizado
-385,Gayel,L√≥pez,20000,TU6789B,EconomyClass,Aterrizado
+384,Nonnah,RodrÌguez,25000,TU6789B,EconomyClass,Aterrizado
+385,Gayel,LÛpez,20000,TU6789B,EconomyClass,Aterrizado
 386,Demeter,Fuentes,10000,TU6789B,EconomyClass,Aterrizado
-387,Juliann,Hern√°ndez,50000,TU6789B,EconomyClass,Aterrizado
+387,Juliann,Hern·ndez,50000,TU6789B,EconomyClass,Aterrizado
 388,Shauna,Torres,25000,TU6789B,EconomyClass,Aterrizado
 389,Anna-maria,Araya,42000,TU6789B,EconomyClass,Aterrizado
 390,Ag,Flores,50000,TU6789B,EconomyClass,Aterrizado
@@ -394,25 +394,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 393,Barret,Castillo,10000,MM0987B,ExecutiveClass,En Horario
 394,Gaelan,Tapia,25000,MM0987B,ExecutiveClass,En Horario
 395,Livy,Reyes,20000,MM0987B,ExecutiveClass,En Horario
-396,Iorgos,Guti√©rrez,18000,MM0987B,ExecutiveClass,En Horario
+396,Iorgos,GutiÈrrez,18000,MM0987B,ExecutiveClass,En Horario
 397,Charil,Castro,33000,MM0987B,ExecutiveClass,En Horario
 398,Easter,Pizarro,30000,MM0987B,ExecutiveClass,En Horario
-399,Esdras,√Ålvarez,37000,MM0987B,ExecutiveClass,En Horario
-400,Prince,V√°squez,25000,MM0987B,EconomyClass,En Horario
-401,Vail,S√°nchez,33000,MM0987B,EconomyClass,En Horario
-402,Rachel,Fern√°ndez,12000,MM0987B,EconomyClass,En Horario
-403,Bar,Ram√≠rez,20000,TU6789B,EconomyClass,Aterrizado
+399,Esdras,¡lvarez,37000,MM0987B,ExecutiveClass,En Horario
+400,Prince,V·squez,25000,MM0987B,EconomyClass,En Horario
+401,Vail,S·nchez,33000,MM0987B,EconomyClass,En Horario
+402,Rachel,Fern·ndez,12000,MM0987B,EconomyClass,En Horario
+403,Bar,RamÌrez,20000,TU6789B,EconomyClass,Aterrizado
 404,Willa,Carrasco,30000,TU6789B,EconomyClass,Aterrizado
-405,Amerigo,G√≥mez,33000,TU6789B,EconomyClass,Aterrizado
-406,Fredric,Cort√©s,50000,TU6789B,EconomyClass,Aterrizado
+405,Amerigo,GÛmez,33000,TU6789B,EconomyClass,Aterrizado
+406,Fredric,CortÈs,50000,TU6789B,EconomyClass,Aterrizado
 407,Mikael,Herrera,50000,TU6789B,EconomyClass,Aterrizado
-408,Benson,N√∫√±ez,20000,TU6789B,EconomyClass,Aterrizado
+408,Benson,N˙Òez,20000,TU6789B,EconomyClass,Aterrizado
 409,Sileas,Jara,20000,TU6789B,EconomyClass,Aterrizado
 410,Fidelia,Vergara,12000,TU6789B,EconomyClass,Aterrizado
 411,Frayda,Rivera,30000,TU6789B,EconomyClass,Aterrizado
 412,Babita,Figueroa,30000,TU6789B,EconomyClass,Aterrizado
 413,Clair,Riquelme,42000,TU6789B,EconomyClass,Aterrizado
-414,Morie,Garc√≠a,12000,TU6789B,EconomyClass,Aterrizado
+414,Morie,GarcÌa,12000,TU6789B,EconomyClass,Aterrizado
 415,Skylar,Miranda,20000,TU6789B,EconomyClass,Aterrizado
 416,Dennie,Bravo,42000,TU6789B,EconomyClass,Aterrizado
 417,Sibley,Vera,20000,TU6789B,EconomyClass,Aterrizado
@@ -421,15 +421,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 420,Lothaire,Campos,12000,TU6789B,EconomyClass,Aterrizado
 421,Neila,Sandoval,15000,TU6789B,EconomyClass,Aterrizado
 422,Jennifer,Orellana,15000,GU2345F,FirstClass,En Vuelo
-423,Keelby,C√°rdenas,15000,GU2345F,FirstClass,En Vuelo
+423,Keelby,C·rdenas,15000,GU2345F,FirstClass,En Vuelo
 424,Chuck,Olivares,33000,GU2345F,FirstClass,En Vuelo
-425,Jordan,Alarc√≥n,33000,GU2345F,FirstClass,En Vuelo
+425,Jordan,AlarcÛn,33000,GU2345F,FirstClass,En Vuelo
 426,Minnnie,Gallardo,20000,GU2345F,FirstClass,En Vuelo
 427,Carine,Ortiz,33000,GU2345F,FirstClass,En Vuelo
 428,Kelly,Garrido,37000,GU2345F,FirstClass,En Vuelo
 429,Coleman,Salazar,25000,GU2345F,FirstClass,En Vuelo
-430,Pincus,Guzm√°n,42000,GU2345F,FirstClass,En Vuelo
-431,Smitty,Henr√≠quez,15000,GU2345F,FirstClass,En Vuelo
+430,Pincus,Guzm·n,42000,GU2345F,FirstClass,En Vuelo
+431,Smitty,HenrÌquez,15000,GU2345F,FirstClass,En Vuelo
 432,Wade,Saavedra,12000,GU2345F,FirstClass,En Vuelo
 433,Emmit,Navarro,12000,GU2345F,FirstClass,En Vuelo
 434,Brietta,Aguilera,42000,GU2345F,FirstClass,En Vuelo
@@ -437,17 +437,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 436,Felicdad,Romero,18000,GU2345F,FirstClass,En Vuelo
 437,Any,Aravena,18000,GU2345F,FirstClass,En Vuelo
 438,Gardie,Vargas,12000,GU2345F,FirstClass,En Vuelo
-439,Leelah,V√°zquez,25000,GU2345F,FirstClass,En Vuelo
-440,Garold,C√°ceres,20000,GU2345F,FirstClass,En Vuelo
-441,Regine,Y√°√±ez,10000,GU2345F,FirstClass,En Vuelo
+439,Leelah,V·zquez,25000,GU2345F,FirstClass,En Vuelo
+440,Garold,C·ceres,20000,GU2345F,FirstClass,En Vuelo
+441,Regine,Y·Òez,10000,GU2345F,FirstClass,En Vuelo
 442,Tam,Leiva,20000,GU2345F,ExecutiveClass,En Vuelo
 443,Davon,Escobar,20000,GU2345F,ExecutiveClass,En Vuelo
 444,Chrissy,Ruiz,18000,GU2345F,ExecutiveClass,En Vuelo
-445,Ozzie,Vald√©s,20000,GU2345F,ExecutiveClass,En Vuelo
+445,Ozzie,ValdÈs,20000,GU2345F,ExecutiveClass,En Vuelo
 446,Rina,Vidal,20000,GU2345F,ExecutiveClass,En Vuelo
 447,Guy,Salinas,42000,GU2345F,ExecutiveClass,En Vuelo
-448,Lenora,Z√∫√±iga,18000,GU2345F,ExecutiveClass,En Vuelo
-449,Julietta,Pe√±a,42000,GU2345F,ExecutiveClass,En Vuelo
+448,Lenora,Z˙Òiga,18000,GU2345F,ExecutiveClass,En Vuelo
+449,Julietta,PeÒa,42000,GU2345F,ExecutiveClass,En Vuelo
 450,Alexandr,Godoy,18000,GU2345F,ExecutiveClass,En Vuelo
 451,Margalit,Lagos,15000,GU2345F,ExecutiveClass,En Vuelo
 452,Samara,Maldonado,50000,GU2345F,ExecutiveClass,En Vuelo
@@ -459,7 +459,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 458,Kassi,Sanhueza,37000,GU2345F,ExecutiveClass,En Vuelo
 459,Karen,Carvajal,20000,GU2345F,ExecutiveClass,En Vuelo
 460,Mac,Navarrete,20000,GU2345F,ExecutiveClass,En Vuelo
-461,Anthia,S√°ez,37000,GU2345F,ExecutiveClass,En Vuelo
+461,Anthia,S·ez,37000,GU2345F,ExecutiveClass,En Vuelo
 462,Marsiella,Alvarado,20000,GU2345F,ExecutiveClass,En Vuelo
 463,Shea,Donoso,12000,GU2345F,ExecutiveClass,En Vuelo
 464,Liana,Poblete,15000,GU2345F,ExecutiveClass,En Vuelo
@@ -469,47 +469,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 468,Kendell,Venegas,25000,GU2345F,ExecutiveClass,En Vuelo
 469,Chrisy,Guerrero,15000,GU2345F,ExecutiveClass,En Vuelo
 470,Rod,Mendoza,50000,GU2345F,ExecutiveClass,En Vuelo
-471,Ramsay,Far√≠as,20000,GU2345F,ExecutiveClass,En Vuelo
-472,Saidee,San Mart√≠n,50000,GU2345F,ExecutiveClass,En Vuelo
-473,Erek,Gonz√°lez,10000,GU2345F,ExecutiveClass,En Vuelo
-474,Salomi,Fern√°ndez,10000,GU2345F,ExecutiveClass,En Vuelo
-475,Coletta,Rodr√≠guez,50000,GU2345F,ExecutiveClass,En Vuelo
-476,Abigael,L√≥pez,12000,GU2345F,ExecutiveClass,En Vuelo
-477,Mariele,Mart√≠nez,33000,GU2345F,EconomyClass,En Vuelo
-478,Brooke,S√°nchez,20000,GU2345F,EconomyClass,En Vuelo
-479,Benita,P√©rez,25000,GU2345F,EconomyClass,En Vuelo
-480,Marissa,G√≥mez,37000,GU2345F,EconomyClass,En Vuelo
-481,Lionello,Mart√≠n,37000,GU2345F,EconomyClass,En Vuelo
-482,Tori,Jim√©nez,42000,GU2345F,EconomyClass,En Vuelo
+471,Ramsay,FarÌas,20000,GU2345F,ExecutiveClass,En Vuelo
+472,Saidee,San MartÌn,50000,GU2345F,ExecutiveClass,En Vuelo
+473,Erek,Gonz·lez,10000,GU2345F,ExecutiveClass,En Vuelo
+474,Salomi,Fern·ndez,10000,GU2345F,ExecutiveClass,En Vuelo
+475,Coletta,RodrÌguez,50000,GU2345F,ExecutiveClass,En Vuelo
+476,Abigael,LÛpez,12000,GU2345F,ExecutiveClass,En Vuelo
+477,Mariele,MartÌnez,33000,GU2345F,EconomyClass,En Vuelo
+478,Brooke,S·nchez,20000,GU2345F,EconomyClass,En Vuelo
+479,Benita,PÈrez,25000,GU2345F,EconomyClass,En Vuelo
+480,Marissa,GÛmez,37000,GU2345F,EconomyClass,En Vuelo
+481,Lionello,MartÌn,37000,GU2345F,EconomyClass,En Vuelo
+482,Tori,JimÈnez,42000,GU2345F,EconomyClass,En Vuelo
 483,Micheil,Ruiz,37000,GU2345F,EconomyClass,En Vuelo
-484,Kym,Hern√°ndez,20000,GU2345F,EconomyClass,En Vuelo
-485,Melisse,D√≠az,10000,GU2345F,EconomyClass,En Vuelo
+484,Kym,Hern·ndez,20000,GU2345F,EconomyClass,En Vuelo
+485,Melisse,DÌaz,10000,GU2345F,EconomyClass,En Vuelo
 486,Bartholomew,Moreno,33000,GU2345F,EconomyClass,En Vuelo
-487,Rorie,√Ålvarez,25000,GU2345F,EconomyClass,En Vuelo
-488,Hedvige,Mu√±oz,37000,GU2345F,EconomyClass,En Vuelo
+487,Rorie,¡lvarez,25000,GU2345F,EconomyClass,En Vuelo
+488,Hedvige,MuÒoz,37000,GU2345F,EconomyClass,En Vuelo
 489,Dorothea,Romero,15000,GU2345F,EconomyClass,En Vuelo
 490,Tamarah,Alonso,50000,GU2345F,EconomyClass,En Vuelo
-491,Skipton,Guti√©rrez,10000,GU2345F,EconomyClass,En Vuelo
+491,Skipton,GutiÈrrez,10000,GU2345F,EconomyClass,En Vuelo
 492,Minny,Navarro,33000,GU2345F,EconomyClass,En Vuelo
 493,Joshia,Torres,33000,GU2345F,EconomyClass,En Vuelo
-494,Mirilla,Dom√≠nguez,30000,GU2345F,EconomyClass,En Vuelo
-495,Willey,V√°zquez,15000,GU2345F,EconomyClass,En Vuelo
+494,Mirilla,DomÌnguez,30000,GU2345F,EconomyClass,En Vuelo
+495,Willey,V·zquez,15000,GU2345F,EconomyClass,En Vuelo
 496,Conrado,Ramos,50000,GU2345F,EconomyClass,En Vuelo
-497,Fredia,Gonz√°lez,30000,GU2345F,EconomyClass,En Vuelo
-498,Gretchen,Mu√±oz,12000,GU2345F,EconomyClass,En Vuelo
+497,Fredia,Gonz·lez,30000,GU2345F,EconomyClass,En Vuelo
+498,Gretchen,MuÒoz,12000,GU2345F,EconomyClass,En Vuelo
 499,Bibbie,Rojas,37000,GU2345F,EconomyClass,En Vuelo
-500,Warren,D√≠az,25000,GU2345F,EconomyClass,En Vuelo
-501,Gabi,P√©rez,30000,GU2345F,EconomyClass,En Vuelo
+500,Warren,DÌaz,25000,GU2345F,EconomyClass,En Vuelo
+501,Gabi,PÈrez,30000,GU2345F,EconomyClass,En Vuelo
 502,Callie,Soto,50000,GU2345F,EconomyClass,En Vuelo
 503,Patton,Contreras,15000,GU2345F,EconomyClass,En Vuelo
 504,Karie,Silva,25000,GU2345F,EconomyClass,En Vuelo
-505,Martguerita,Mart√≠nez,50000,GU2345F,EconomyClass,En Vuelo
-506,Lothaire,Sep√∫lveda,20000,GU2345F,EconomyClass,En Vuelo
+505,Martguerita,MartÌnez,50000,GU2345F,EconomyClass,En Vuelo
+506,Lothaire,Sep˙lveda,20000,GU2345F,EconomyClass,En Vuelo
 507,Patrice,Morales,37000,GU2345F,EconomyClass,En Vuelo
-508,Lin,Rodr√≠guez,12000,MM0987B,EconomyClass,En Horario
-509,Cornie,L√≥pez,42000,MM0987B,EconomyClass,En Horario
+508,Lin,RodrÌguez,12000,MM0987B,EconomyClass,En Horario
+509,Cornie,LÛpez,42000,MM0987B,EconomyClass,En Horario
 510,Irena,Fuentes,20000,MM0987B,EconomyClass,En Horario
-511,Markos,Hern√°ndez,20000,MM0987B,EconomyClass,En Horario
+511,Markos,Hern·ndez,20000,MM0987B,EconomyClass,En Horario
 512,Bird,Torres,18000,MM0987B,EconomyClass,En Horario
 513,Lorna,Araya,42000,MM0987B,EconomyClass,En Horario
 514,Vincents,Flores,25000,MM0987B,EconomyClass,En Horario
@@ -518,25 +518,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 517,Danya,Castillo,25000,GU2345F,EconomyClass,En Vuelo
 518,Erda,Tapia,37000,GU2345F,EconomyClass,En Vuelo
 519,Ethe,Reyes,20000,GU2345F,EconomyClass,En Vuelo
-520,Coop,Guti√©rrez,37000,GU2345F,EconomyClass,En Vuelo
+520,Coop,GutiÈrrez,37000,GU2345F,EconomyClass,En Vuelo
 521,Sheridan,Castro,50000,GU2345F,EconomyClass,En Vuelo
 522,Charles,Pizarro,42000,GU2345F,EconomyClass,En Vuelo
-523,Eddy,√Ålvarez,12000,GU2345F,EconomyClass,En Vuelo
-524,Janey,V√°squez,42000,GU2345F,EconomyClass,En Vuelo
-525,Edan,S√°nchez,20000,GU2345F,EconomyClass,En Vuelo
-526,Homer,Fern√°ndez,10000,GU2345F,EconomyClass,En Vuelo
-527,Eveline,Ram√≠rez,37000,GU2345F,EconomyClass,En Vuelo
+523,Eddy,¡lvarez,12000,GU2345F,EconomyClass,En Vuelo
+524,Janey,V·squez,42000,GU2345F,EconomyClass,En Vuelo
+525,Edan,S·nchez,20000,GU2345F,EconomyClass,En Vuelo
+526,Homer,Fern·ndez,10000,GU2345F,EconomyClass,En Vuelo
+527,Eveline,RamÌrez,37000,GU2345F,EconomyClass,En Vuelo
 528,Helen-elizabeth,Carrasco,20000,GU2345F,EconomyClass,En Vuelo
-529,Daveta,G√≥mez,20000,GU2345F,EconomyClass,En Vuelo
-530,Mort,Cort√©s,42000,GU2345F,EconomyClass,En Vuelo
+529,Daveta,GÛmez,20000,GU2345F,EconomyClass,En Vuelo
+530,Mort,CortÈs,42000,GU2345F,EconomyClass,En Vuelo
 531,Maxi,Herrera,37000,GU2345F,EconomyClass,En Vuelo
-532,Nathalie,N√∫√±ez,37000,GU2345F,EconomyClass,En Vuelo
+532,Nathalie,N˙Òez,37000,GU2345F,EconomyClass,En Vuelo
 533,Dennison,Jara,25000,GU2345F,EconomyClass,En Vuelo
 534,Bunnie,Vergara,33000,GU2345F,EconomyClass,En Vuelo
 535,Frans,Rivera,33000,BA2491A,EconomyClass,Aterrizado
 536,Delmar,Figueroa,42000,BA2491A,EconomyClass,Aterrizado
 537,Ced,Riquelme,20000,BA2491A,EconomyClass,Aterrizado
-538,Caren,Garc√≠a,12000,BA2491A,EconomyClass,Aterrizado
+538,Caren,GarcÌa,12000,BA2491A,EconomyClass,Aterrizado
 539,Christie,Miranda,18000,BA2491A,EconomyClass,Aterrizado
 540,Saunders,Bravo,25000,BA2491A,EconomyClass,Aterrizado
 541,Deny,Vera,18000,GU2345F,EconomyClass,En Vuelo
@@ -545,15 +545,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 544,Prisca,Campos,18000,GU2345F,EconomyClass,En Vuelo
 545,Domini,Sandoval,18000,GU2345F,EconomyClass,En Vuelo
 546,Henrie,Orellana,50000,GU2345F,EconomyClass,En Vuelo
-547,Marj,C√°rdenas,18000,GU2345F,EconomyClass,En Vuelo
+547,Marj,C·rdenas,18000,GU2345F,EconomyClass,En Vuelo
 548,Mab,Olivares,25000,GU2345F,EconomyClass,En Vuelo
-549,Josiah,Alarc√≥n,12000,GU2345F,EconomyClass,En Vuelo
+549,Josiah,AlarcÛn,12000,GU2345F,EconomyClass,En Vuelo
 550,Mathe,Gallardo,12000,GU2345F,EconomyClass,En Vuelo
 551,Gauthier,Ortiz,12000,GU2345F,EconomyClass,En Vuelo
 552,Delmore,Garrido,33000,GU2345F,EconomyClass,En Vuelo
 553,Lynett,Salazar,37000,GU2345F,EconomyClass,En Vuelo
-554,Lucais,Guzm√°n,42000,GU2345F,EconomyClass,En Vuelo
-555,Clarice,Henr√≠quez,33000,GU2345F,EconomyClass,En Vuelo
+554,Lucais,Guzm·n,42000,GU2345F,EconomyClass,En Vuelo
+555,Clarice,HenrÌquez,33000,GU2345F,EconomyClass,En Vuelo
 556,Aeriela,Saavedra,37000,GU2345F,EconomyClass,En Vuelo
 557,Babbie,Navarro,15000,GU2345F,EconomyClass,En Vuelo
 558,Caren,Aguilera,15000,GU2345F,EconomyClass,En Vuelo
@@ -561,17 +561,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 560,Hesther,Romero,15000,GU2345F,EconomyClass,En Vuelo
 561,Sasha,Aravena,15000,GU2345F,EconomyClass,En Vuelo
 562,Erica,Vargas,10000,GU2345F,EconomyClass,En Vuelo
-563,Keith,V√°zquez,10000,GU2345F,EconomyClass,En Vuelo
-564,Briney,C√°ceres,12000,GU2345F,EconomyClass,En Vuelo
-565,Rutherford,Y√°√±ez,15000,GU2345F,EconomyClass,En Vuelo
+563,Keith,V·zquez,10000,GU2345F,EconomyClass,En Vuelo
+564,Briney,C·ceres,12000,GU2345F,EconomyClass,En Vuelo
+565,Rutherford,Y·Òez,15000,GU2345F,EconomyClass,En Vuelo
 566,Lemmie,Leiva,18000,GU2345F,EconomyClass,En Vuelo
 567,Dur,Escobar,25000,GU2345F,EconomyClass,En Vuelo
 568,Modesta,Ruiz,33000,GU2345F,EconomyClass,En Vuelo
-569,Carter,Vald√©s,33000,GU2345F,EconomyClass,En Vuelo
+569,Carter,ValdÈs,33000,GU2345F,EconomyClass,En Vuelo
 570,Retha,Vidal,15000,GU2345F,EconomyClass,En Vuelo
 571,Carma,Salinas,33000,GU2345F,EconomyClass,En Vuelo
-572,Antonella,Z√∫√±iga,15000,GU2345F,EconomyClass,En Vuelo
-573,Sutherlan,Pe√±a,10000,GU2345F,EconomyClass,En Vuelo
+572,Antonella,Z˙Òiga,15000,GU2345F,EconomyClass,En Vuelo
+573,Sutherlan,PeÒa,10000,GU2345F,EconomyClass,En Vuelo
 574,Phillipe,Godoy,37000,GU2345F,EconomyClass,En Vuelo
 575,Florida,Lagos,37000,HY4567D,FirstClass,Demorado
 576,Corrina,Maldonado,15000,HY4567D,FirstClass,Demorado
@@ -583,7 +583,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 582,Grier,Sanhueza,42000,HY4567D,FirstClass,Demorado
 583,Annabell,Carvajal,15000,HY4567D,FirstClass,Demorado
 584,Basil,Navarrete,12000,HY4567D,FirstClass,Demorado
-585,Horatius,S√°ez,18000,HY4567D,FirstClass,Demorado
+585,Horatius,S·ez,18000,HY4567D,FirstClass,Demorado
 586,Umeko,Alvarado,30000,HY4567D,FirstClass,Demorado
 587,Hayes,Donoso,10000,HY4567D,FirstClass,Demorado
 588,Lynnette,Poblete,37000,HY4567D,FirstClass,Demorado
@@ -593,47 +593,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 592,Corabelle,Venegas,37000,HY4567D,FirstClass,Demorado
 593,Vic,Guerrero,25000,HY4567D,FirstClass,Demorado
 594,Cyndia,Mendoza,33000,HY4567D,FirstClass,Demorado
-595,Gray,Far√≠as,42000,HY4567D,FirstClass,Demorado
-596,Dylan,San Mart√≠n,30000,HY4567D,FirstClass,Demorado
-597,Isabelle,Gonz√°lez,20000,HY4567D,FirstClass,Demorado
-598,Eachelle,Fern√°ndez,37000,HY4567D,FirstClass,Demorado
-599,Howard,Rodr√≠guez,18000,HY4567D,FirstClass,Demorado
-600,Cornall,L√≥pez,18000,HY4567D,FirstClass,Demorado
-601,Emmalee,Mart√≠nez,18000,HY4567D,FirstClass,Demorado
-602,Brian,S√°nchez,20000,HY4567D,FirstClass,Demorado
-603,Cahra,P√©rez,50000,HY4567D,ExecutiveClass,Demorado
-604,Arvin,G√≥mez,50000,HY4567D,ExecutiveClass,Demorado
-605,Minda,Mart√≠n,15000,HY4567D,ExecutiveClass,Demorado
-606,Dedie,Jim√©nez,33000,HY4567D,ExecutiveClass,Demorado
+595,Gray,FarÌas,42000,HY4567D,FirstClass,Demorado
+596,Dylan,San MartÌn,30000,HY4567D,FirstClass,Demorado
+597,Isabelle,Gonz·lez,20000,HY4567D,FirstClass,Demorado
+598,Eachelle,Fern·ndez,37000,HY4567D,FirstClass,Demorado
+599,Howard,RodrÌguez,18000,HY4567D,FirstClass,Demorado
+600,Cornall,LÛpez,18000,HY4567D,FirstClass,Demorado
+601,Emmalee,MartÌnez,18000,HY4567D,FirstClass,Demorado
+602,Brian,S·nchez,20000,HY4567D,FirstClass,Demorado
+603,Cahra,PÈrez,50000,HY4567D,ExecutiveClass,Demorado
+604,Arvin,GÛmez,50000,HY4567D,ExecutiveClass,Demorado
+605,Minda,MartÌn,15000,HY4567D,ExecutiveClass,Demorado
+606,Dedie,JimÈnez,33000,HY4567D,ExecutiveClass,Demorado
 607,Lydia,Ruiz,15000,HY4567D,ExecutiveClass,Demorado
-608,Joshia,Hern√°ndez,25000,HY4567D,ExecutiveClass,Demorado
-609,Bernita,D√≠az,15000,HY4567D,ExecutiveClass,Demorado
+608,Joshia,Hern·ndez,25000,HY4567D,ExecutiveClass,Demorado
+609,Bernita,DÌaz,15000,HY4567D,ExecutiveClass,Demorado
 610,Sayre,Moreno,33000,HY4567D,ExecutiveClass,Demorado
-611,Pearla,√Ålvarez,20000,HY4567D,ExecutiveClass,Demorado
-612,Fidole,Mu√±oz,30000,HY4567D,ExecutiveClass,Demorado
+611,Pearla,¡lvarez,20000,HY4567D,ExecutiveClass,Demorado
+612,Fidole,MuÒoz,30000,HY4567D,ExecutiveClass,Demorado
 613,Evin,Romero,12000,HY4567D,ExecutiveClass,Demorado
 614,Fredia,Alonso,20000,HY4567D,ExecutiveClass,Demorado
-615,Idalina,Guti√©rrez,50000,HY4567D,ExecutiveClass,Demorado
+615,Idalina,GutiÈrrez,50000,HY4567D,ExecutiveClass,Demorado
 616,Hetti,Navarro,30000,HY4567D,ExecutiveClass,Demorado
 617,Kirk,Torres,30000,HY4567D,ExecutiveClass,Demorado
-618,Orson,Dom√≠nguez,25000,HY4567D,ExecutiveClass,Demorado
-619,Lyndsay,V√°zquez,42000,HY4567D,ExecutiveClass,Demorado
+618,Orson,DomÌnguez,25000,HY4567D,ExecutiveClass,Demorado
+619,Lyndsay,V·zquez,42000,HY4567D,ExecutiveClass,Demorado
 620,Lissy,Ramos,37000,HY4567D,ExecutiveClass,Demorado
-621,Odessa,Gonz√°lez,50000,HY4567D,ExecutiveClass,Demorado
-622,Hestia,Mu√±oz,18000,HY4567D,ExecutiveClass,Demorado
+621,Odessa,Gonz·lez,50000,HY4567D,ExecutiveClass,Demorado
+622,Hestia,MuÒoz,18000,HY4567D,ExecutiveClass,Demorado
 623,Dorotea,Rojas,10000,HY4567D,ExecutiveClass,Demorado
-624,Giraud,D√≠az,15000,HY4567D,ExecutiveClass,Demorado
-625,Tonya,P√©rez,37000,HY4567D,ExecutiveClass,Demorado
+624,Giraud,DÌaz,15000,HY4567D,ExecutiveClass,Demorado
+625,Tonya,PÈrez,37000,HY4567D,ExecutiveClass,Demorado
 626,Menard,Soto,37000,HY4567D,ExecutiveClass,Demorado
 627,Nicola,Contreras,12000,HY4567D,ExecutiveClass,Demorado
 628,Maddy,Silva,25000,HY4567D,ExecutiveClass,Demorado
-629,Mace,Mart√≠nez,18000,HY4567D,ExecutiveClass,Demorado
-630,Lyndy,Sep√∫lveda,37000,HY4567D,ExecutiveClass,Demorado
+629,Mace,MartÌnez,18000,HY4567D,ExecutiveClass,Demorado
+630,Lyndy,Sep˙lveda,37000,HY4567D,ExecutiveClass,Demorado
 631,Ivonne,Morales,20000,HY4567D,ExecutiveClass,Demorado
-632,Josepha,Rodr√≠guez,20000,HY4567D,EconomyClass,Demorado
-633,Shandra,L√≥pez,50000,HY4567D,EconomyClass,Demorado
+632,Josepha,RodrÌguez,20000,HY4567D,EconomyClass,Demorado
+633,Shandra,LÛpez,50000,HY4567D,EconomyClass,Demorado
 634,Viva,Fuentes,25000,HY4567D,EconomyClass,Demorado
-635,Sherwin,Hern√°ndez,10000,HY4567D,EconomyClass,Demorado
+635,Sherwin,Hern·ndez,10000,HY4567D,EconomyClass,Demorado
 636,Abigail,Torres,18000,HY4567D,EconomyClass,Demorado
 637,Rosalia,Araya,18000,HY4567D,EconomyClass,Demorado
 638,Merissa,Flores,25000,HY4567D,EconomyClass,Demorado
@@ -642,25 +642,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 641,Maia,Castillo,10000,HY4567D,EconomyClass,Demorado
 642,Elinor,Tapia,33000,HY4567D,EconomyClass,Demorado
 643,Neron,Reyes,42000,HY4567D,EconomyClass,Demorado
-644,Malachi,Guti√©rrez,25000,HY4567D,EconomyClass,Demorado
+644,Malachi,GutiÈrrez,25000,HY4567D,EconomyClass,Demorado
 645,Sarajane,Castro,10000,HY4567D,EconomyClass,Demorado
 646,Arlie,Pizarro,42000,HY4567D,EconomyClass,Demorado
-647,Felike,√Ålvarez,12000,HY4567D,EconomyClass,Demorado
-648,Ethan,V√°squez,12000,HY4567D,EconomyClass,Demorado
-649,Ruthy,S√°nchez,20000,HY4567D,EconomyClass,Demorado
-650,Hugo,Fern√°ndez,30000,HY4567D,EconomyClass,Demorado
-651,Thorndike,Ram√≠rez,10000,HY4567D,EconomyClass,Demorado
+647,Felike,¡lvarez,12000,HY4567D,EconomyClass,Demorado
+648,Ethan,V·squez,12000,HY4567D,EconomyClass,Demorado
+649,Ruthy,S·nchez,20000,HY4567D,EconomyClass,Demorado
+650,Hugo,Fern·ndez,30000,HY4567D,EconomyClass,Demorado
+651,Thorndike,RamÌrez,10000,HY4567D,EconomyClass,Demorado
 652,Cesaro,Carrasco,30000,HY4567D,EconomyClass,Demorado
-653,Harmonia,G√≥mez,12000,HY4567D,EconomyClass,Demorado
-654,Damara,Cort√©s,12000,HY4567D,EconomyClass,Demorado
+653,Harmonia,GÛmez,12000,HY4567D,EconomyClass,Demorado
+654,Damara,CortÈs,12000,HY4567D,EconomyClass,Demorado
 655,Maddy,Herrera,25000,HY4567D,EconomyClass,Demorado
-656,Filmer,N√∫√±ez,50000,HY4567D,EconomyClass,Demorado
+656,Filmer,N˙Òez,50000,HY4567D,EconomyClass,Demorado
 657,Boothe,Jara,12000,HY4567D,EconomyClass,Demorado
 658,Dorrie,Vergara,42000,HY4567D,EconomyClass,Demorado
 659,Willdon,Rivera,10000,HY4567D,EconomyClass,Demorado
 660,Cindi,Figueroa,12000,HY4567D,EconomyClass,Demorado
 661,Shermie,Riquelme,12000,HY4567D,EconomyClass,Demorado
-662,Byrom,Garc√≠a,42000,HY4567D,EconomyClass,Demorado
+662,Byrom,GarcÌa,42000,HY4567D,EconomyClass,Demorado
 663,Millie,Miranda,15000,HY4567D,EconomyClass,Demorado
 664,Natassia,Bravo,42000,HY4567D,EconomyClass,Demorado
 665,Wheeler,Vera,25000,HY4567D,EconomyClass,Demorado
@@ -669,15 +669,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 668,Katina,Campos,20000,HY4567D,EconomyClass,Demorado
 669,Beverlee,Sandoval,25000,HY4567D,EconomyClass,Demorado
 670,Arlette,Orellana,30000,HY4567D,EconomyClass,Demorado
-671,Jacqueline,C√°rdenas,50000,HY4567D,EconomyClass,Demorado
+671,Jacqueline,C·rdenas,50000,HY4567D,EconomyClass,Demorado
 672,Sheila-kathryn,Olivares,10000,HY4567D,EconomyClass,Demorado
-673,Lambert,Alarc√≥n,42000,HY4567D,EconomyClass,Demorado
+673,Lambert,AlarcÛn,42000,HY4567D,EconomyClass,Demorado
 674,Lamont,Gallardo,33000,HY4567D,EconomyClass,Demorado
 675,Immanuel,Ortiz,33000,HY4567D,EconomyClass,Demorado
 676,Nani,Garrido,50000,HY4567D,EconomyClass,Demorado
 677,Galen,Salazar,50000,HY4567D,EconomyClass,Demorado
-678,Nilson,Guzm√°n,10000,HY4567D,EconomyClass,Demorado
-679,Tomi,Henr√≠quez,50000,HY4567D,EconomyClass,Demorado
+678,Nilson,Guzm·n,10000,HY4567D,EconomyClass,Demorado
+679,Tomi,HenrÌquez,50000,HY4567D,EconomyClass,Demorado
 680,Flore,Saavedra,30000,HY4567D,EconomyClass,Demorado
 681,Burgess,Navarro,12000,HY4567D,EconomyClass,Demorado
 682,Tally,Aguilera,42000,HY4567D,EconomyClass,Demorado
@@ -685,17 +685,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 684,Sly,Romero,42000,HY4567D,EconomyClass,Demorado
 685,Yul,Aravena,30000,HY4567D,EconomyClass,Demorado
 686,Rosalyn,Vargas,37000,HY4567D,EconomyClass,Demorado
-687,Devondra,V√°zquez,10000,HY4567D,EconomyClass,Demorado
-688,Xenos,C√°ceres,37000,HY4567D,EconomyClass,Demorado
-689,Terrence,Y√°√±ez,42000,HY4567D,EconomyClass,Demorado
+687,Devondra,V·zquez,10000,HY4567D,EconomyClass,Demorado
+688,Xenos,C·ceres,37000,HY4567D,EconomyClass,Demorado
+689,Terrence,Y·Òez,42000,HY4567D,EconomyClass,Demorado
 690,Krystyna,Leiva,50000,HY4567D,EconomyClass,Demorado
 691,Krishna,Escobar,50000,HY4567D,EconomyClass,Demorado
 692,Zorina,Ruiz,18000,HY4567D,EconomyClass,Demorado
-693,Baxy,Vald√©s,20000,HY4567D,EconomyClass,Demorado
+693,Baxy,ValdÈs,20000,HY4567D,EconomyClass,Demorado
 694,Terrie,Vidal,42000,HY4567D,EconomyClass,Demorado
 695,Justino,Salinas,18000,HY4567D,EconomyClass,Demorado
-696,Erhard,Z√∫√±iga,33000,HY4567D,EconomyClass,Demorado
-697,Robbie,Pe√±a,30000,HY4567D,EconomyClass,Demorado
+696,Erhard,Z˙Òiga,33000,HY4567D,EconomyClass,Demorado
+697,Robbie,PeÒa,30000,HY4567D,EconomyClass,Demorado
 698,Paddie,Godoy,33000,HY4567D,EconomyClass,Demorado
 699,Evelyn,Lagos,10000,HY4567D,EconomyClass,Demorado
 700,Abbot,Maldonado,33000,HY4567D,EconomyClass,Demorado
@@ -707,7 +707,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 706,Lia,Sanhueza,20000,HY4567D,EconomyClass,Demorado
 707,Petronille,Carvajal,42000,HY4567D,EconomyClass,Demorado
 708,Merle,Navarrete,10000,HY4567D,EconomyClass,Demorado
-709,Hagan,S√°ez,50000,HY4567D,EconomyClass,Demorado
+709,Hagan,S·ez,50000,HY4567D,EconomyClass,Demorado
 710,Nikolaus,Alvarado,30000,HY4567D,EconomyClass,Demorado
 711,Cinda,Donoso,42000,HY4567D,EconomyClass,Demorado
 712,Matelda,Poblete,18000,HY4567D,EconomyClass,Demorado
@@ -717,47 +717,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 716,Elita,Venegas,18000,IB0800A,EconomyClass,Aterrizado
 717,Hyacinthia,Guerrero,25000,IB0800A,EconomyClass,Aterrizado
 718,Fina,Mendoza,42000,IB0800A,EconomyClass,Aterrizado
-719,Kamila,Far√≠as,42000,IB0800A,EconomyClass,Aterrizado
-720,Jennie,San Mart√≠n,42000,IB0800A,EconomyClass,Aterrizado
-721,Riobard,Gonz√°lez,42000,IB0800A,EconomyClass,Aterrizado
-722,Joannes,Fern√°ndez,10000,IB0800A,EconomyClass,Aterrizado
-723,Darlene,Rodr√≠guez,42000,IB0800A,EconomyClass,Aterrizado
-724,Zia,L√≥pez,42000,IB0800A,EconomyClass,Aterrizado
-725,Cristina,Mart√≠nez,15000,IB0800A,EconomyClass,Aterrizado
-726,Jonathon,S√°nchez,50000,IB0800A,EconomyClass,Aterrizado
-727,Rickie,P√©rez,42000,IB0800A,EconomyClass,Aterrizado
-728,Klara,G√≥mez,50000,IB0800A,EconomyClass,Aterrizado
-729,Osbert,Mart√≠n,33000,IB0800A,EconomyClass,Aterrizado
-730,Emmet,Jim√©nez,37000,IB0800A,EconomyClass,Aterrizado
+719,Kamila,FarÌas,42000,IB0800A,EconomyClass,Aterrizado
+720,Jennie,San MartÌn,42000,IB0800A,EconomyClass,Aterrizado
+721,Riobard,Gonz·lez,42000,IB0800A,EconomyClass,Aterrizado
+722,Joannes,Fern·ndez,10000,IB0800A,EconomyClass,Aterrizado
+723,Darlene,RodrÌguez,42000,IB0800A,EconomyClass,Aterrizado
+724,Zia,LÛpez,42000,IB0800A,EconomyClass,Aterrizado
+725,Cristina,MartÌnez,15000,IB0800A,EconomyClass,Aterrizado
+726,Jonathon,S·nchez,50000,IB0800A,EconomyClass,Aterrizado
+727,Rickie,PÈrez,42000,IB0800A,EconomyClass,Aterrizado
+728,Klara,GÛmez,50000,IB0800A,EconomyClass,Aterrizado
+729,Osbert,MartÌn,33000,IB0800A,EconomyClass,Aterrizado
+730,Emmet,JimÈnez,37000,IB0800A,EconomyClass,Aterrizado
 731,Cassandry,Ruiz,33000,IB0800A,EconomyClass,Aterrizado
-732,Enrica,Hern√°ndez,18000,IB0800A,EconomyClass,Aterrizado
-733,Evvy,D√≠az,42000,IB0800A,EconomyClass,Aterrizado
+732,Enrica,Hern·ndez,18000,IB0800A,EconomyClass,Aterrizado
+733,Evvy,DÌaz,42000,IB0800A,EconomyClass,Aterrizado
 734,Silas,Moreno,20000,IB0800A,EconomyClass,Aterrizado
-735,Kaia,√Ålvarez,25000,IB0800A,EconomyClass,Aterrizado
-736,Arvie,Mu√±oz,15000,IB0800A,EconomyClass,Aterrizado
+735,Kaia,¡lvarez,25000,IB0800A,EconomyClass,Aterrizado
+736,Arvie,MuÒoz,15000,IB0800A,EconomyClass,Aterrizado
 737,Keith,Romero,20000,FR5678G,FirstClass,En Horario
 738,Silvie,Alonso,12000,FR5678G,FirstClass,En Horario
-739,Winnifred,Guti√©rrez,10000,FR5678G,FirstClass,En Horario
+739,Winnifred,GutiÈrrez,10000,FR5678G,FirstClass,En Horario
 740,Chen,Navarro,37000,FR5678G,FirstClass,En Horario
 741,Carleton,Torres,15000,FR5678G,FirstClass,En Horario
-742,Silvano,Dom√≠nguez,12000,FR5678G,FirstClass,En Horario
-743,Pancho,V√°zquez,18000,FR5678G,FirstClass,En Horario
+742,Silvano,DomÌnguez,12000,FR5678G,FirstClass,En Horario
+743,Pancho,V·zquez,18000,FR5678G,FirstClass,En Horario
 744,Melonie,Ramos,33000,FR5678G,FirstClass,En Horario
-745,Gordon,Gonz√°lez,12000,FR5678G,FirstClass,En Horario
-746,Rosemarie,Mu√±oz,10000,FR5678G,FirstClass,En Horario
+745,Gordon,Gonz·lez,12000,FR5678G,FirstClass,En Horario
+746,Rosemarie,MuÒoz,10000,FR5678G,FirstClass,En Horario
 747,Graehme,Rojas,18000,FR5678G,FirstClass,En Horario
-748,Mitchael,D√≠az,33000,FR5678G,FirstClass,En Horario
-749,Carola,P√©rez,10000,FR5678G,FirstClass,En Horario
+748,Mitchael,DÌaz,33000,FR5678G,FirstClass,En Horario
+749,Carola,PÈrez,10000,FR5678G,FirstClass,En Horario
 750,Zsa zsa,Soto,20000,FR5678G,FirstClass,En Horario
 751,Jude,Contreras,12000,FR5678G,FirstClass,En Horario
 752,Arch,Silva,33000,FR5678G,FirstClass,En Horario
-753,Andrej,Mart√≠nez,50000,FR5678G,FirstClass,En Horario
-754,Amber,Sep√∫lveda,42000,FR5678G,FirstClass,En Horario
+753,Andrej,MartÌnez,50000,FR5678G,FirstClass,En Horario
+754,Amber,Sep˙lveda,42000,FR5678G,FirstClass,En Horario
 755,Dorian,Morales,15000,FR5678G,FirstClass,En Horario
-756,Kaitlynn,Rodr√≠guez,15000,FR5678G,FirstClass,En Horario
-757,Kerianne,L√≥pez,37000,FR5678G,FirstClass,En Horario
+756,Kaitlynn,RodrÌguez,15000,FR5678G,FirstClass,En Horario
+757,Kerianne,LÛpez,37000,FR5678G,FirstClass,En Horario
 758,Boycie,Fuentes,18000,FR5678G,FirstClass,En Horario
-759,Nanete,Hern√°ndez,37000,FR5678G,FirstClass,En Horario
+759,Nanete,Hern·ndez,37000,FR5678G,FirstClass,En Horario
 760,Sidonia,Torres,10000,FR5678G,FirstClass,En Horario
 761,Galvan,Araya,33000,FR5678G,FirstClass,En Horario
 762,Lucienne,Flores,25000,FR5678G,FirstClass,En Horario
@@ -766,25 +766,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 765,Jenny,Castillo,33000,FR5678G,ExecutiveClass,En Horario
 766,Toby,Tapia,20000,FR5678G,ExecutiveClass,En Horario
 767,Brynne,Reyes,18000,FR5678G,ExecutiveClass,En Horario
-768,Blakeley,Guti√©rrez,18000,FR5678G,ExecutiveClass,En Horario
+768,Blakeley,GutiÈrrez,18000,FR5678G,ExecutiveClass,En Horario
 769,Egan,Castro,10000,FR5678G,ExecutiveClass,En Horario
 770,Barbey,Pizarro,20000,FR5678G,ExecutiveClass,En Horario
-771,Portia,√Ålvarez,33000,FR5678G,ExecutiveClass,En Horario
-772,Alica,V√°squez,37000,FR5678G,ExecutiveClass,En Horario
-773,Juliana,S√°nchez,50000,FR5678G,ExecutiveClass,En Horario
-774,Barde,Fern√°ndez,18000,FR5678G,ExecutiveClass,En Horario
-775,Wilie,Ram√≠rez,30000,FR5678G,ExecutiveClass,En Horario
+771,Portia,¡lvarez,33000,FR5678G,ExecutiveClass,En Horario
+772,Alica,V·squez,37000,FR5678G,ExecutiveClass,En Horario
+773,Juliana,S·nchez,50000,FR5678G,ExecutiveClass,En Horario
+774,Barde,Fern·ndez,18000,FR5678G,ExecutiveClass,En Horario
+775,Wilie,RamÌrez,30000,FR5678G,ExecutiveClass,En Horario
 776,Letta,Carrasco,10000,FR5678G,ExecutiveClass,En Horario
-777,Ree,G√≥mez,42000,FR5678G,ExecutiveClass,En Horario
-778,Ingmar,Cort√©s,18000,FR5678G,ExecutiveClass,En Horario
+777,Ree,GÛmez,42000,FR5678G,ExecutiveClass,En Horario
+778,Ingmar,CortÈs,18000,FR5678G,ExecutiveClass,En Horario
 779,Melva,Herrera,42000,FR5678G,ExecutiveClass,En Horario
-780,Tootsie,N√∫√±ez,25000,FR5678G,ExecutiveClass,En Horario
+780,Tootsie,N˙Òez,25000,FR5678G,ExecutiveClass,En Horario
 781,Felike,Jara,33000,FR5678G,ExecutiveClass,En Horario
 782,Laughton,Vergara,15000,FR5678G,ExecutiveClass,En Horario
 783,Crosby,Rivera,12000,FR5678G,ExecutiveClass,En Horario
 784,Marianne,Figueroa,33000,FR5678G,ExecutiveClass,En Horario
 785,Francine,Riquelme,42000,FR5678G,ExecutiveClass,En Horario
-786,Edan,Garc√≠a,50000,FR5678G,ExecutiveClass,En Horario
+786,Edan,GarcÌa,50000,FR5678G,ExecutiveClass,En Horario
 787,Fayre,Miranda,18000,FR5678G,ExecutiveClass,En Horario
 788,Adelaida,Bravo,37000,FR5678G,ExecutiveClass,En Horario
 789,Florella,Vera,25000,FR5678G,ExecutiveClass,En Horario
@@ -793,15 +793,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 792,Jermayne,Campos,33000,FR5678G,ExecutiveClass,En Horario
 793,Grayce,Sandoval,33000,FR5678G,ExecutiveClass,En Horario
 794,Harv,Orellana,42000,FR5678G,ExecutiveClass,En Horario
-795,Lorianna,C√°rdenas,15000,FR5678G,ExecutiveClass,En Horario
+795,Lorianna,C·rdenas,15000,FR5678G,ExecutiveClass,En Horario
 796,Hersh,Olivares,33000,FR5678G,ExecutiveClass,En Horario
-797,Diahann,Alarc√≥n,33000,FR5678G,ExecutiveClass,En Horario
+797,Diahann,AlarcÛn,33000,FR5678G,ExecutiveClass,En Horario
 798,Yelena,Gallardo,50000,FR5678G,ExecutiveClass,En Horario
 799,Emmaline,Ortiz,37000,FR5678G,ExecutiveClass,En Horario
 800,Daffi,Garrido,12000,FR5678G,ExecutiveClass,En Horario
 801,Janine,Salazar,50000,FR5678G,ExecutiveClass,En Horario
-802,Sheilah,Guzm√°n,42000,FR5678G,ExecutiveClass,En Horario
-803,Lazaro,Henr√≠quez,10000,FR5678G,ExecutiveClass,En Horario
+802,Sheilah,Guzm·n,42000,FR5678G,ExecutiveClass,En Horario
+803,Lazaro,HenrÌquez,10000,FR5678G,ExecutiveClass,En Horario
 804,Earle,Saavedra,30000,FR5678G,ExecutiveClass,En Horario
 805,Fred,Navarro,25000,FR5678G,EconomyClass,En Horario
 806,Almira,Aguilera,42000,FR5678G,EconomyClass,En Horario
@@ -809,17 +809,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 808,Emanuel,Romero,30000,FR5678G,EconomyClass,En Horario
 809,Obadias,Aravena,10000,FR5678G,EconomyClass,En Horario
 810,Efrem,Vargas,20000,FR5678G,EconomyClass,En Horario
-811,Susi,V√°zquez,18000,FR5678G,EconomyClass,En Horario
-812,Maxy,C√°ceres,15000,FR5678G,EconomyClass,En Horario
-813,Agnes,Y√°√±ez,42000,FR5678G,EconomyClass,En Horario
+811,Susi,V·zquez,18000,FR5678G,EconomyClass,En Horario
+812,Maxy,C·ceres,15000,FR5678G,EconomyClass,En Horario
+813,Agnes,Y·Òez,42000,FR5678G,EconomyClass,En Horario
 814,Obadiah,Leiva,12000,FR5678G,EconomyClass,En Horario
 815,Lefty,Escobar,50000,FR5678G,EconomyClass,En Horario
 816,Michele,Ruiz,42000,FR5678G,EconomyClass,En Horario
-817,Cynthia,Vald√©s,25000,FR5678G,EconomyClass,En Horario
+817,Cynthia,ValdÈs,25000,FR5678G,EconomyClass,En Horario
 818,Hyatt,Vidal,20000,FR5678G,EconomyClass,En Horario
 819,Roch,Salinas,33000,FR5678G,EconomyClass,En Horario
-820,Mag,Z√∫√±iga,12000,FR5678G,EconomyClass,En Horario
-821,Trevor,Pe√±a,10000,FR5678G,EconomyClass,En Horario
+820,Mag,Z˙Òiga,12000,FR5678G,EconomyClass,En Horario
+821,Trevor,PeÒa,10000,FR5678G,EconomyClass,En Horario
 822,Jefferey,Godoy,10000,FR5678G,EconomyClass,En Horario
 823,Tania,Lagos,42000,FR5678G,EconomyClass,En Horario
 824,Mercie,Maldonado,42000,FR5678G,EconomyClass,En Horario
@@ -831,7 +831,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 830,Cale,Sanhueza,50000,FR5678G,EconomyClass,En Horario
 831,Christina,Carvajal,37000,FR5678G,EconomyClass,En Horario
 832,Olivier,Navarrete,20000,FR5678G,EconomyClass,En Horario
-833,Oby,S√°ez,12000,FR5678G,EconomyClass,En Horario
+833,Oby,S·ez,12000,FR5678G,EconomyClass,En Horario
 834,Chad,Alvarado,15000,FR5678G,EconomyClass,En Horario
 835,Adelle,Donoso,10000,FR5678G,EconomyClass,En Horario
 836,Keene,Poblete,25000,FR5678G,EconomyClass,En Horario
@@ -841,47 +841,47 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 840,Wadsworth,Venegas,30000,FR5678G,EconomyClass,En Horario
 841,Shelley,Guerrero,15000,FR5678G,EconomyClass,En Horario
 842,Irv,Mendoza,15000,FR5678G,EconomyClass,En Horario
-843,Grant,Far√≠as,33000,FR5678G,EconomyClass,En Horario
-844,Bella,San Mart√≠n,18000,FR5678G,EconomyClass,En Horario
-845,Yardley,Gonz√°lez,50000,FR5678G,EconomyClass,En Horario
-846,Brendin,Fern√°ndez,10000,FR5678G,EconomyClass,En Horario
-847,Estella,Rodr√≠guez,42000,FR5678G,EconomyClass,En Horario
-848,Rasia,L√≥pez,37000,FR5678G,EconomyClass,En Horario
-849,Gibb,Mart√≠nez,20000,FR5678G,EconomyClass,En Horario
-850,Amanda,S√°nchez,37000,FR5678G,EconomyClass,En Horario
-851,Sidoney,P√©rez,20000,FR5678G,EconomyClass,En Horario
-852,Giacopo,G√≥mez,18000,FR5678G,EconomyClass,En Horario
-853,Eve,Mart√≠n,12000,FR5678G,EconomyClass,En Horario
-854,Levon,Jim√©nez,25000,FR5678G,EconomyClass,En Horario
+843,Grant,FarÌas,33000,FR5678G,EconomyClass,En Horario
+844,Bella,San MartÌn,18000,FR5678G,EconomyClass,En Horario
+845,Yardley,Gonz·lez,50000,FR5678G,EconomyClass,En Horario
+846,Brendin,Fern·ndez,10000,FR5678G,EconomyClass,En Horario
+847,Estella,RodrÌguez,42000,FR5678G,EconomyClass,En Horario
+848,Rasia,LÛpez,37000,FR5678G,EconomyClass,En Horario
+849,Gibb,MartÌnez,20000,FR5678G,EconomyClass,En Horario
+850,Amanda,S·nchez,37000,FR5678G,EconomyClass,En Horario
+851,Sidoney,PÈrez,20000,FR5678G,EconomyClass,En Horario
+852,Giacopo,GÛmez,18000,FR5678G,EconomyClass,En Horario
+853,Eve,MartÌn,12000,FR5678G,EconomyClass,En Horario
+854,Levon,JimÈnez,25000,FR5678G,EconomyClass,En Horario
 855,Vassili,Ruiz,33000,FR5678G,EconomyClass,En Horario
-856,Henrieta,Hern√°ndez,30000,FR5678G,EconomyClass,En Horario
-857,Devlen,D√≠az,37000,FR5678G,EconomyClass,En Horario
+856,Henrieta,Hern·ndez,30000,FR5678G,EconomyClass,En Horario
+857,Devlen,DÌaz,37000,FR5678G,EconomyClass,En Horario
 858,Ophelie,Moreno,37000,FR5678G,EconomyClass,En Horario
-859,Abramo,√Ålvarez,37000,FR5678G,EconomyClass,En Horario
-860,Fair,Mu√±oz,37000,FR5678G,EconomyClass,En Horario
+859,Abramo,¡lvarez,37000,FR5678G,EconomyClass,En Horario
+860,Fair,MuÒoz,37000,FR5678G,EconomyClass,En Horario
 861,Pietrek,Romero,25000,FR5678G,EconomyClass,En Horario
 862,Holden,Alonso,50000,FR5678G,EconomyClass,En Horario
-863,Cherish,Guti√©rrez,42000,FR5678G,EconomyClass,En Horario
+863,Cherish,GutiÈrrez,42000,FR5678G,EconomyClass,En Horario
 864,Alonzo,Navarro,12000,FR5678G,EconomyClass,En Horario
 865,Devonna,Torres,18000,FR5678G,EconomyClass,En Horario
-866,Rubi,Dom√≠nguez,18000,FR5678G,EconomyClass,En Horario
-867,Emmanuel,V√°zquez,30000,FR5678G,EconomyClass,En Horario
+866,Rubi,DomÌnguez,18000,FR5678G,EconomyClass,En Horario
+867,Emmanuel,V·zquez,30000,FR5678G,EconomyClass,En Horario
 868,Trumaine,Ramos,42000,FR5678G,EconomyClass,En Horario
-869,Malory,Gonz√°lez,42000,FR5678G,EconomyClass,En Horario
-870,Pearla,Mu√±oz,33000,FR5678G,EconomyClass,En Horario
+869,Malory,Gonz·lez,42000,FR5678G,EconomyClass,En Horario
+870,Pearla,MuÒoz,33000,FR5678G,EconomyClass,En Horario
 871,Phelia,Rojas,33000,FR5678G,EconomyClass,En Horario
-872,Madonna,D√≠az,10000,FR5678G,EconomyClass,En Horario
-873,Thomasa,P√©rez,18000,FR5678G,EconomyClass,En Horario
+872,Madonna,DÌaz,10000,FR5678G,EconomyClass,En Horario
+873,Thomasa,PÈrez,18000,FR5678G,EconomyClass,En Horario
 874,Estella,Soto,20000,FR5678G,EconomyClass,En Horario
 875,Saw,Contreras,15000,FR5678G,EconomyClass,En Horario
 876,Cecil,Silva,37000,FR5678G,EconomyClass,En Horario
-877,Mac,Mart√≠nez,25000,FR5678G,EconomyClass,En Horario
-878,Ralf,Sep√∫lveda,12000,FR5678G,EconomyClass,En Horario
+877,Mac,MartÌnez,25000,FR5678G,EconomyClass,En Horario
+878,Ralf,Sep˙lveda,12000,FR5678G,EconomyClass,En Horario
 879,Barbey,Morales,12000,FR5678G,EconomyClass,En Horario
-880,Josi,Rodr√≠guez,18000,FR5678G,EconomyClass,En Horario
-881,Kenna,L√≥pez,25000,FR5678G,EconomyClass,En Horario
+880,Josi,RodrÌguez,18000,FR5678G,EconomyClass,En Horario
+881,Kenna,LÛpez,25000,FR5678G,EconomyClass,En Horario
 882,Rina,Fuentes,25000,FR5678G,EconomyClass,En Horario
-883,Callida,Hern√°ndez,33000,FR5678G,EconomyClass,En Horario
+883,Callida,Hern·ndez,33000,FR5678G,EconomyClass,En Horario
 884,Lona,Torres,30000,FR5678G,EconomyClass,En Horario
 885,Jan,Araya,18000,FR5678G,EconomyClass,En Horario
 886,Bailey,Flores,30000,FR5678G,EconomyClass,En Horario
@@ -890,25 +890,25 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 889,Flo,Castillo,42000,FR5678G,EconomyClass,En Horario
 890,Madel,Tapia,12000,FR5678G,EconomyClass,En Horario
 891,Conant,Reyes,37000,FR5678G,EconomyClass,En Horario
-892,Devland,Guti√©rrez,10000,FR5678G,EconomyClass,En Horario
+892,Devland,GutiÈrrez,10000,FR5678G,EconomyClass,En Horario
 893,Annamarie,Castro,20000,FR5678G,EconomyClass,En Horario
 894,Gabbie,Pizarro,42000,FR5678G,EconomyClass,En Horario
-895,Frasquito,√Ålvarez,15000,FR5678G,EconomyClass,En Horario
-896,Oberon,V√°squez,15000,FR5678G,EconomyClass,En Horario
-897,Gabriell,S√°nchez,10000,FR5678G,EconomyClass,En Horario
-898,Ki,Fern√°ndez,30000,BR3456J,FirstClass,Demorado
-899,Martelle,Ram√≠rez,15000,BR3456J,FirstClass,Demorado
+895,Frasquito,¡lvarez,15000,FR5678G,EconomyClass,En Horario
+896,Oberon,V·squez,15000,FR5678G,EconomyClass,En Horario
+897,Gabriell,S·nchez,10000,FR5678G,EconomyClass,En Horario
+898,Ki,Fern·ndez,30000,BR3456J,FirstClass,Demorado
+899,Martelle,RamÌrez,15000,BR3456J,FirstClass,Demorado
 900,Riccardo,Carrasco,42000,BR3456J,FirstClass,Demorado
-901,Shaughn,G√≥mez,50000,BR3456J,FirstClass,Demorado
-902,Coral,Cort√©s,18000,BR3456J,FirstClass,Demorado
+901,Shaughn,GÛmez,50000,BR3456J,FirstClass,Demorado
+902,Coral,CortÈs,18000,BR3456J,FirstClass,Demorado
 903,Judas,Herrera,10000,BR3456J,FirstClass,Demorado
-904,Josiah,N√∫√±ez,12000,BR3456J,FirstClass,Demorado
+904,Josiah,N˙Òez,12000,BR3456J,FirstClass,Demorado
 905,Freda,Jara,42000,BR3456J,FirstClass,Demorado
 906,Lynn,Vergara,37000,BR3456J,ExecutiveClass,Demorado
 907,Tabb,Rivera,50000,BR3456J,ExecutiveClass,Demorado
 908,Brittany,Figueroa,18000,MM0987B,EconomyClass,En Horario
 909,Leo,Riquelme,42000,MM0987B,EconomyClass,En Horario
-910,Atlante,Garc√≠a,33000,MM0987B,EconomyClass,En Horario
+910,Atlante,GarcÌa,33000,MM0987B,EconomyClass,En Horario
 911,Maurie,Miranda,50000,MM0987B,EconomyClass,En Horario
 912,Oren,Bravo,20000,MM0987B,EconomyClass,En Horario
 913,Anetta,Vera,10000,MM0987B,EconomyClass,En Horario
@@ -917,15 +917,15 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 916,Saunder,Campos,37000,MM0987B,EconomyClass,En Horario
 917,Luis,Sandoval,12000,MM0987B,EconomyClass,En Horario
 918,Alysia,Orellana,37000,MM0987B,EconomyClass,En Horario
-919,Calypso,C√°rdenas,12000,BR3456J,ExecutiveClass,Demorado
+919,Calypso,C·rdenas,12000,BR3456J,ExecutiveClass,Demorado
 920,Gretna,Olivares,42000,BR3456J,ExecutiveClass,Demorado
-921,Odie,Alarc√≥n,20000,BR3456J,ExecutiveClass,Demorado
+921,Odie,AlarcÛn,20000,BR3456J,ExecutiveClass,Demorado
 922,Wenda,Gallardo,12000,BR3456J,ExecutiveClass,Demorado
 923,Ezekiel,Ortiz,20000,BR3456J,ExecutiveClass,Demorado
 924,Orlan,Garrido,25000,BR3456J,ExecutiveClass,Demorado
 925,Wittie,Salazar,37000,BR3456J,ExecutiveClass,Demorado
-926,Abbie,Guzm√°n,18000,BR3456J,EconomyClass,Demorado
-927,Robinia,Henr√≠quez,10000,BR3456J,EconomyClass,Demorado
+926,Abbie,Guzm·n,18000,BR3456J,EconomyClass,Demorado
+927,Robinia,HenrÌquez,10000,BR3456J,EconomyClass,Demorado
 928,Hayden,Saavedra,30000,BR3456J,EconomyClass,Demorado
 929,Melody,Navarro,20000,BR3456J,EconomyClass,Demorado
 930,Emory,Aguilera,37000,BR3456J,EconomyClass,Demorado
@@ -933,17 +933,17 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 932,Debby,Romero,18000,IB0800A,EconomyClass,Aterrizado
 933,Gui,Aravena,20000,IB0800A,EconomyClass,Aterrizado
 934,Dorette,Vargas,37000,IB0800A,EconomyClass,Aterrizado
-935,Jillane,V√°zquez,37000,IB0800A,EconomyClass,Aterrizado
-936,Carolina,C√°ceres,33000,IB0800A,EconomyClass,Aterrizado
-937,Randy,Y√°√±ez,15000,IB0800A,EconomyClass,Aterrizado
+935,Jillane,V·zquez,37000,IB0800A,EconomyClass,Aterrizado
+936,Carolina,C·ceres,33000,IB0800A,EconomyClass,Aterrizado
+937,Randy,Y·Òez,15000,IB0800A,EconomyClass,Aterrizado
 938,Arabel,Leiva,50000,IB0800A,EconomyClass,Aterrizado
 939,Verina,Escobar,37000,IB0800A,EconomyClass,Aterrizado
 940,Josefina,Ruiz,30000,IB0800A,EconomyClass,Aterrizado
-941,Nina,Vald√©s,25000,IB0800A,EconomyClass,Aterrizado
+941,Nina,ValdÈs,25000,IB0800A,EconomyClass,Aterrizado
 942,Vernen,Vidal,18000,IB0800A,EconomyClass,Aterrizado
 943,Loria,Salinas,25000,IB0800A,EconomyClass,Aterrizado
-944,Isabeau,Z√∫√±iga,37000,BA2491A,EconomyClass,Aterrizado
-945,Cherice,Pe√±a,15000,BR3456J,EconomyClass,Demorado
+944,Isabeau,Z˙Òiga,37000,BA2491A,EconomyClass,Aterrizado
+945,Cherice,PeÒa,15000,BR3456J,EconomyClass,Demorado
 946,Kimberley,Godoy,18000,BR3456J,EconomyClass,Demorado
 947,Martyn,Lagos,25000,BR3456J,EconomyClass,Demorado
 948,Agustin,Maldonado,25000,BR3456J,EconomyClass,Demorado
@@ -955,7 +955,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 954,Laetitia,Sanhueza,33000,MM0987B,EconomyClass,En Horario
 955,Delila,Carvajal,20000,MM0987B,EconomyClass,En Horario
 956,Sioux,Navarrete,12000,MM0987B,EconomyClass,En Horario
-957,Floyd,S√°ez,15000,MM0987B,EconomyClass,En Horario
+957,Floyd,S·ez,15000,MM0987B,EconomyClass,En Horario
 958,Trista,Alvarado,50000,BR3456J,EconomyClass,Demorado
 959,Shaughn,Donoso,15000,BR3456J,EconomyClass,Demorado
 960,Zitella,Poblete,42000,BR3456J,EconomyClass,Demorado
@@ -965,37 +965,37 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 964,Ansley,Venegas,37000,BR3456J,EconomyClass,Demorado
 965,Kirstin,Guerrero,12000,BR3456J,EconomyClass,Demorado
 966,Karon,Mendoza,10000,BR3456J,EconomyClass,Demorado
-967,Esme,Far√≠as,37000,BR3456J,EconomyClass,Demorado
-968,Berenice,San Mart√≠n,10000,IB0800A,EconomyClass,Aterrizado
-969,Charlie,Gonz√°lez,50000,IB0800A,EconomyClass,Aterrizado
-970,Noach,Fern√°ndez,12000,IB0800A,EconomyClass,Aterrizado
-971,Mercedes,Rodr√≠guez,12000,IB0800A,EconomyClass,Aterrizado
-972,Sloan,L√≥pez,42000,IB0800A,EconomyClass,Aterrizado
-973,Guglielma,Mart√≠nez,15000,IB0800A,EconomyClass,Aterrizado
-974,Herrick,S√°nchez,30000,IB0800A,EconomyClass,Aterrizado
-975,Aleksandr,P√©rez,42000,IB0800A,EconomyClass,Aterrizado
-976,Arlina,G√≥mez,33000,IB0800A,EconomyClass,Aterrizado
-977,Wenonah,Mart√≠n,12000,IB0800A,EconomyClass,Aterrizado
-978,Warner,Jim√©nez,30000,IB0800A,EconomyClass,Aterrizado
+967,Esme,FarÌas,37000,BR3456J,EconomyClass,Demorado
+968,Berenice,San MartÌn,10000,IB0800A,EconomyClass,Aterrizado
+969,Charlie,Gonz·lez,50000,IB0800A,EconomyClass,Aterrizado
+970,Noach,Fern·ndez,12000,IB0800A,EconomyClass,Aterrizado
+971,Mercedes,RodrÌguez,12000,IB0800A,EconomyClass,Aterrizado
+972,Sloan,LÛpez,42000,IB0800A,EconomyClass,Aterrizado
+973,Guglielma,MartÌnez,15000,IB0800A,EconomyClass,Aterrizado
+974,Herrick,S·nchez,30000,IB0800A,EconomyClass,Aterrizado
+975,Aleksandr,PÈrez,42000,IB0800A,EconomyClass,Aterrizado
+976,Arlina,GÛmez,33000,IB0800A,EconomyClass,Aterrizado
+977,Wenonah,MartÌn,12000,IB0800A,EconomyClass,Aterrizado
+978,Warner,JimÈnez,30000,IB0800A,EconomyClass,Aterrizado
 979,Libbey,Ruiz,42000,BA2491A,EconomyClass,Aterrizado
-980,Brana,Hern√°ndez,10000,BA2491A,EconomyClass,Aterrizado
-981,Genevieve,D√≠az,20000,BA2491A,EconomyClass,Aterrizado
+980,Brana,Hern·ndez,10000,BA2491A,EconomyClass,Aterrizado
+981,Genevieve,DÌaz,20000,BA2491A,EconomyClass,Aterrizado
 982,Sharai,Moreno,10000,BA2491A,EconomyClass,Aterrizado
-983,Josi,√Ålvarez,12000,BA2491A,EconomyClass,Aterrizado
-984,Pebrook,Mu√±oz,33000,BA2491A,EconomyClass,Aterrizado
+983,Josi,¡lvarez,12000,BA2491A,EconomyClass,Aterrizado
+984,Pebrook,MuÒoz,33000,BA2491A,EconomyClass,Aterrizado
 985,Erna,Romero,33000,BA2491A,EconomyClass,Aterrizado
 986,Ferd,Alonso,25000,BA2491A,EconomyClass,Aterrizado
-987,Mohammed,Guti√©rrez,42000,BA2491A,EconomyClass,Aterrizado
+987,Mohammed,GutiÈrrez,42000,BA2491A,EconomyClass,Aterrizado
 988,Dawn,Navarro,37000,BA2491A,EconomyClass,Aterrizado
 989,Wandie,Torres,25000,BA2491A,EconomyClass,Aterrizado
-990,Chiarra,Dom√≠nguez,18000,MM0987B,EconomyClass,En Horario
-991,Zaccaria,V√°zquez,33000,MM0987B,EconomyClass,En Horario
+990,Chiarra,DomÌnguez,18000,MM0987B,EconomyClass,En Horario
+991,Zaccaria,V·zquez,33000,MM0987B,EconomyClass,En Horario
 992,Trenna,Ramos,10000,MM0987B,EconomyClass,En Horario
 993,Angelia,Moreno,50000,MM0987B,EconomyClass,En Horario
-994,Raquela,√Ålvarez,12000,MM0987B,EconomyClass,En Horario
-995,Maxi,Mu√±oz,18000,MM0987B,EconomyClass,En Horario
+994,Raquela,¡lvarez,12000,MM0987B,EconomyClass,En Horario
+995,Maxi,MuÒoz,18000,MM0987B,EconomyClass,En Horario
 996,Atalanta,Romero,37000,MM0987B,EconomyClass,En Horario
 997,De witt,Alonso,12000,MM0987B,EconomyClass,En Horario
-998,Jaye,Guti√©rrez,25000,MM0987B,EconomyClass,En Horario
+998,Jaye,GutiÈrrez,25000,MM0987B,EconomyClass,En Horario
 999,Tamarra,Navarro,15000,MM0987B,EconomyClass,En Horario
 1000,Saleem,Torres,20000,MM0987B,EconomyClass,En Horario

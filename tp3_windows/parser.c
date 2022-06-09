@@ -7,20 +7,25 @@
 
 /** \brief Parsea los datos los datos de los pasajeros desde el archivo data.csv (modo texto).
  *
- * \param path char*
+ * \param pFile FILE*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int parser_PassengerFromText(FILE* pFile , LinkedList* pArrayListPassenger){
 
 	//Descripcion:
 	//**1-Declaro las variables necesarias para cargar a los pasajeros escaneados del documento
-	//**2-Valido la validez de los parametros.
+	//**2-Valido los parametros recibidos.
 	//**3-Recorro el archivo. Escaneo linea por linea, cargando los datos separados por coma en las variables declaradas al principio.
 	//**4-Creo el nuevo pasajero con los datos escaneados. Cargo el nuevo pasajero en la linkedList. Retorno 0 en caso de exito.
+	//NOTA: Pasa el campo 'tipoDePasajero' se realiza una codificacion mediante la funcion 'codificarTipoDePasajero'.
+	//Dependiendo del valor en tipoDePasajero, se manejara internamente con una variable tipo INT.
+	//***Economic --> 1
+	//***Executive--> 2
+	//***First------> 3
 	int retorno = -1;
-	Passenger* auxPasajero;
+	Passenger* pPasajero;
 	char id[32];
 	char nombre[32];
 	char apellido[32];
@@ -34,9 +39,9 @@ int parser_PassengerFromText(FILE* pFile , LinkedList* pArrayListPassenger){
 		fscanf(pFile, "%[^,],%[^,],%[^,],%[^,],%[^,],%[^,],%[^\n]\n",id, nombre, apellido, precio, codigoDeVuelo, tipoDePasajero, estadoDeVuelo);//falsa lectura
 		while(!feof(pFile)){
 			fscanf(pFile, "%[^,],%[^,],%[^,],%[^,],%[^,],%[^,],%[^\n]\n",id, nombre, apellido, precio, codigoDeVuelo, tipoDePasajero, estadoDeVuelo); //Escaneo el documento
-			parser_codificarTipoDePasajero(tipoDePasajero_codigoInterno, tipoDePasajero); //Codifico el tipo de pasajero
-			auxPasajero = Passenger_newParametros(id, nombre, apellido, codigoDeVuelo, tipoDePasajero_codigoInterno, precio, estadoDeVuelo); //cargo los datos escaneados en un nuevo pasajero
-			ll_add(pArrayListPassenger, auxPasajero); //cargo el nuevo pasajero en la linkedList
+			codificarTipoDePasajero(tipoDePasajero_codigoInterno, tipoDePasajero); //Codifico el tipo de pasajero
+			pPasajero = Passenger_newParametros(id, nombre, apellido, codigoDeVuelo, tipoDePasajero_codigoInterno, precio, estadoDeVuelo); //cargo los datos escaneados en un nuevo pasajero
+			ll_add(pArrayListPassenger, pPasajero); //cargo el nuevo pasajero en la linkedList
 			retorno = 0;
 		}
 	}
@@ -48,21 +53,21 @@ int parser_PassengerFromText(FILE* pFile , LinkedList* pArrayListPassenger){
 
 /** \brief Parsea los datos los datos de los pasajeros desde el archivo data.csv (modo binario).
  *
- * \param path char*
+ * \param pFile FILE*
  * \param pArrayListPassenger LinkedList*
- * \return int
+ * \return int. Exito: 0 // Error o parametros invalidos: -1
  *
  */
 int parser_PassengerFromBinary(FILE* pFile , LinkedList* pArrayListPassenger){
 
 	int retorno = -1;
-    Passenger* auxPasajero = NULL;
+    Passenger* pPasajero = NULL;
 
     if(pFile != NULL && pArrayListPassenger != NULL){
 		while(!feof(pFile)){
-			auxPasajero = Passenger_new();
-			fread(auxPasajero, sizeof(Passenger), 1, pFile);
-			ll_add(pArrayListPassenger, auxPasajero);
+			pPasajero = Passenger_new();
+			fread(pPasajero, sizeof(Passenger), 1, pFile);
+			ll_add(pArrayListPassenger, pPasajero);
 			retorno = 0;
 		}
     }
@@ -70,32 +75,5 @@ int parser_PassengerFromBinary(FILE* pFile , LinkedList* pArrayListPassenger){
 	return retorno;
 }
 
-int parser_codificarTipoDePasajero(char tipoDePasajeroint[], char tipoDePasajeroStr[]){
-	int retorno = -1;
-	char tipoDePasajeroConvertido[4];
-	strcpy(tipoDePasajeroConvertido, "0");
 
-	if(tipoDePasajeroint != NULL && tipoDePasajeroStr != NULL){
-		retorno = 0;
-
-
-		if(strcmp(tipoDePasajeroStr, "EconomyClass") == 0){
-			strcpy(tipoDePasajeroConvertido, "1");
-		}
-		else{
-			if(strcmp(tipoDePasajeroStr, "ExecutiveClass") == 0){
-				strcpy(tipoDePasajeroConvertido, "2");
-			}
-			else{
-				if(strcmp(tipoDePasajeroStr, "FirstClass") == 0){
-					strcpy(tipoDePasajeroConvertido, "3");
-				}
-			}
-		}
-		strcpy(tipoDePasajeroint, tipoDePasajeroConvertido);
-	}
-
-	return retorno;
-
-}
 

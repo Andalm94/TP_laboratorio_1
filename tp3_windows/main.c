@@ -19,15 +19,12 @@
     10. Salir
 *****************************************************/
 
-/* NOTAS
---Solucionar el problema de ID. Se guardan pasajeros nuevos con IDs viejos de usuarios eliminados (No estoy seguro)
-*/
-
 int main(){
 	setbuf(stdout, NULL);
     int option = 0;
     int flagArchivosCargados = 0;
     int flagArchivosGuardados = 0;
+
 
     LinkedList* listaPasajeros = ll_newLinkedList();
     do{
@@ -113,7 +110,7 @@ int main(){
 
             case 6: //-------------------------------------------------------------> LISTAR PASAJEROS
             	if(flagArchivosCargados == 1 && controller_ListPassenger(listaPasajeros)==0){
-            		printf("Pasajeros listados exitosamente\n");
+            		printf("\nPasajeros listados exitosamente\n");
             	}
             	else{
                 	if(flagArchivosCargados == 0){
