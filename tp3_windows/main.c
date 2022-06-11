@@ -36,25 +36,42 @@ int main(){
         {
 
         	case 1: //-------------------------------------------------------------> CARGAR DATOS DE ARCHIVO TEXTO
-                if(controller_loadFromText("data.csv",listaPasajeros)==0){
-                	printf("Datos cargados exitosamente.\n");
-                	flagArchivosCargados = 1;
+                if(flagArchivosCargados == 0){
+                	//Mediante una flag, evitamos que se carguen varias veces los datos del archivo
+                	//De este modo, evitamos que se multipliquen los datos.
+                	if(controller_loadFromText("data.csv",listaPasajeros)==0){
+                		printf("Datos cargados exitosamente.\n");
+                		flagArchivosCargados = 1;
+                	}
+                    else{
+                        printf("Ha habido un error en la carga de datos.\n");
+                    }
+
                 }
                 else{
-                	printf("Ha habido un error en la carga de datos.\n");
+                	printf("Los datos ya han sido cargados\n");
                 }
+
+
+
                 break;
 
 
 
             case 2: //-------------------------------------------------------------> CARGAR DATOS DE ARCHIVO BINARIO
-            	if(controller_loadFromBinary("data.bin", listaPasajeros)==0){
-                	printf("Datos cargados exitosamente.\n");
-                	flagArchivosCargados = 1;
-                }
-                else{
-                	printf("Ha habido un error en la carga de datos.\n");
-                }
+            	if(flagArchivosCargados == 0){
+                	if(controller_loadFromBinary("data.bin", listaPasajeros)==0){
+                    	printf("Datos cargados exitosamente.\n");
+                    	flagArchivosCargados = 1;
+                    }
+                    else{
+                    	printf("Ha habido un error en la carga de datos.\n");
+                    }
+            	}
+            	else{
+            		printf("Los datos ya han sido cargados\n");
+            	}
+
             	break;
 
 

@@ -56,6 +56,7 @@ int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger){
 	}
 
 	fclose(file);
+
 	len=ll_len(pArrayListPassenger);
 	ll_remove(pArrayListPassenger, len-1);
 
@@ -102,7 +103,7 @@ int controller_addPassenger(LinkedList* pArrayListPassenger){
 				getString ("Estado del vuelo: \n", "ERROR. Intente nuevamente.", estadoDeVuelo, 32, 3) == 0){
 
 			nextID = controller_generadorID(pArrayListPassenger);
-			sprintf(id,"%i", nextID);
+			sprintf(id,"%i", nextID); //Cargo el valor: id(char*) <-- nextID (int)
 			pPasajero = Passenger_newParametros(id, nombre, apellido, codigoDeVuelo, tipoDePasajero, precio, estadoDeVuelo);
 			ll_add(pArrayListPassenger, pPasajero);
 			retorno = 0;
@@ -165,7 +166,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger){
 								mostrarPasajero(pPasajero);
 								break;
 							case 4: //---------------------------------------------------------> TIPO DE PASAJERO
-								getString ("Nuevo tipo de pasajero:\n", "ERROR\n", nuevoDato, 32, 3);
+								getString ("Nuevo tipo de pasajero: (1. EconomicClass || 2.ExecutiveClass || 3.FirstClass)\n", "ERROR\n", nuevoDato, 32, 3);
 								Passenger_setTipoPasajero(pPasajero, atoi(nuevoDato));
 								mostrarPasajero(pPasajero);
 								break;
@@ -216,8 +217,8 @@ int controller_removePassenger(LinkedList* pArrayListPassenger){
 				pPasajero=(Passenger*)ll_get(pArrayListPassenger, indexPasajero);
 				mostrarPasajero(pPasajero);
 
-				//4-Se solicita confirmacion para eliminar. En casi de que el usuario confirme, el usuario se elimina.
-				if (getCharSiNo ("Desea eliminar este pasajero\n", &respuestaConfirmacion, 3) == 0 && respuestaConfirmacion == 'S'){
+				//4-Se solicita confirmacion para eliminar. En caso de que el usuario confirme, el usuario se elimina.
+				if (getCharSiNo ("Desea eliminar este pasajero?(S/N)\n", &respuestaConfirmacion, 3) == 0 && respuestaConfirmacion == 'S'){
 		    		ll_remove(pArrayListPassenger, indexPasajero);
 		    		Passenger_delete(pPasajero);
 				}
